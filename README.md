@@ -117,6 +117,8 @@ Congratulations, now you're able to create custom forms and fill in information 
 ## Video demonstrating how to use the templates
 
 
+https://github.com/Cogitate-consortium/xnat-custom-form-templates/assets/4293133/feee18d0-7b29-4506-97a9-224bff17ef5d
+
 
 ## Gotchas
 
