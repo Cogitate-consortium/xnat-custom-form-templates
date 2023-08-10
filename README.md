@@ -126,6 +126,12 @@ https://github.com/Cogitate-consortium/xnat-custom-form-templates/assets/4293133
 2. If there are multiple UUIDs in the json definition of a form, then there is something wrong. The content and structure of the forms as saved on XNAT can be seen within the XML file. This can be used to verify if fields and values were correctly saved.
 3. It is possible to populate custom forms via REST API, but this is still quite experimental and may lead to unexpected results.
 
+## Repository Contributors
+- [Adeel Ansari](https://github.com/adeel-ansari)
+- [Kyle Kahraman](https://github.com/KyleK748)
+- [Mohana Ramaratnam](https://github.com/mohanakannan9)
+- [Praveen Sripad](https://github.com/pravsripad)
+
 ## Acknowledgements
 
 This project was made possible through the support of a grant from the Templeton World Charity Foundation, Inc. The tool has been developed as a part of the [ARC-COGITATE](https://www.arc-cogitate.com/) project.
