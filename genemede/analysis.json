@@ -1,0 +1,54 @@
+{
+    "title": "Analysis",
+    "display": "form",
+    "settings": {},
+    "components": [
+      {
+        "key": "html",
+        "type": "htmlelement",
+        "attrs": [
+          {
+            "attr": "",
+            "value": ""
+          }
+        ],
+        "input": false,
+        "label": "HTML",
+        "content": "Details about the analysis.",
+        "tableView": false,
+        "refreshOnChange": false
+      },
+      {
+        "key": "analysis_steps",
+        "type": "textfield",
+        "input": true,
+        "label": "Analysis Steps",
+        "tableView": true,
+        "description": "Analysis broken down into individual steps as defined by the researcher. List of analysis steps."
+      },
+      {
+        "key": "analysis_order",
+        "type": "textfield",
+        "input": true,
+        "label": "Analysis Order",
+        "tableView": true,
+        "description": "Order in which the above steps are performed. Analysis steps may be repeated here keeping the order intact."
+      },
+      {
+        "key": "analysis_code_repository",
+        "type": "textfield",
+        "input": true,
+        "label": "Analysis Code Repository",
+        "tableView": true,
+        "description": "Path to the code repository containing the analysis scripts. List of strings."
+      },
+      {
+        "key": "similarto",
+        "type": "textfield",
+        "input": true,
+        "label": "Similar to",
+        "tableView": true,
+        "description": "If the analysis is similar to that described in other papers / repositories, the DOI of the relevant resource may be provided here."
+      }
+    ]
+  }

@@ -1,0 +1,91 @@
+{
+  "title": "BIDS EEG Coordinatesystem",
+  "display": "form",
+  "settings": {},
+  "components": [
+    {
+      "key": "eegCoordinateSystem",
+      "type": "textfield",
+      "input": true,
+      "label": "EEG Coordinate System",
+      "tableView": true
+    },
+    {
+      "key": "eegCoordinateUnits",
+      "type": "textfield",
+      "input": true,
+      "label": "EEG Coordinate Units",
+      "tableView": true
+    },
+    {
+      "key": "eegCoordinateSystemDescription",
+      "type": "textfield",
+      "input": true,
+      "label": "EEG Coordinate System Description",
+      "tableView": true
+    },
+    {
+      "key": "FiducialsDescription",
+      "type": "textfield",
+      "input": true,
+      "label": "Fiducials Descriptions",
+      "tableView": true
+    },
+    {
+      "key": "FiducialsCoordinates",
+      "type": "textfield",
+      "input": true,
+      "label": "Fiducials Coordinates",
+      "tableView": true
+    },
+    {
+      "key": "FiducialsCoordinateSystem",
+      "type": "textfield",
+      "input": true,
+      "label": "Fiducials Coordinate System",
+      "tableView": true
+    },
+    {
+      "key": "FiducialsCoordinateUnits",
+      "type": "textfield",
+      "input": true,
+      "label": "Fiducials Coordinates Units",
+      "tableView": true
+    },
+    {
+      "key": "FiducialsCoordinateSystemDescriptions",
+      "type": "textfield",
+      "input": true,
+      "label": "Fiducials Coordinates",
+      "tableView": true
+    },
+    {
+      "key": "AnatomicalLandmarkCoordinates",
+      "type": "textfield",
+      "input": true,
+      "label": "Anatomical Landmark Coordinates",
+      "tableView": true
+    },
+    {
+      "key": "AnatomicalLandmarkCoordinateSystem",
+      "type": "textfield",
+      "input": true,
+      "label": "Anatomical Landmark Coordinate System",
+      "tableView": true
+    },
+    {
+      "key": "AnatomicalLandmarkCoordinateUnits",
+      "type": "textfield",
+      "input": true,
+      "label": "Anatomical Landmark Coordinate Units",
+      "tableView": true
+    },
+    {
+      "key": "AnatomicalLandmarkCoordinateSystemDescription",
+      "type": "textfield",
+      "input": true,
+      "label": "Anatomical Landmark Coordinate System Description",
+      "tableView": true
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+    "title": "Project Ethics",
+    "display": "form",
+    "settings": {},
+    "components": [
+      {
+        "key": "html",
+        "type": "htmlelement",
+        "attrs": [
+          {
+            "attr": "",
+            "value": ""
+          }
+        ],
+        "input": false,
+        "label": "HTML",
+        "content": "Information related to ethical approval of the project.",
+        "tableView": false,
+        "refreshOnChange": false
+      },
+      {
+        "key": "responsible_member",
+        "type": "textfield",
+        "input": true,
+        "label": "Responsible Member",
+        "tableView": true,
+        "description": "Name of the person responsible for the ethical approval."
+      },
+      {
+        "key": "responsible_institute",
+        "type": "textfield",
+        "input": true,
+        "label": "Responsible Institute",
+        "tableView": true,
+        "description": "Name of the institute granting the ethical approval."
+      },
+      {
+        "key": "protocol_number",
+        "type": "textfield",
+        "input": true,
+        "label": "Protocol Number",
+        "tableView": true,
+        "description": "Protocol number of the ethics approval."
+      },
+      {
+        "key": "approving_committee",
+        "type": "textfield",
+        "input": true,
+        "label": "Approving Committee",
+        "tableView": true,
+        "description": "Members of the ethical approval committee."
+      },
+      {
+        "key": "start_date",
+        "type": "textfield",
+        "input": true,
+        "label": "Start Date",
+        "tableView": true,
+        "description": "Start date of the ethical approval."
+      },
+      {
+        "key": "end_date",
+        "type": "textfield",
+        "input": true,
+        "label": "End date",
+        "tableView": true,
+        "description": "End date of the ethical approval."
+      },
+      {
+        "key": "required_certifications",
+        "type": "textfield",
+        "input": true,
+        "label": "Required Certifications",
+        "tableView": true,
+        "description": "List of certifications required as part of the ethical approval. e.g. training in handling animals etc."
+      }
+    ]
+  }

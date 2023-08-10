@@ -1,0 +1,442 @@
+{
+  "key": "html1",
+  "type": "htmlelement",
+  "attrs": [
+    {
+      "attr": "",
+      "value": ""
+    }
+  ],
+  "input": false,
+  "label": "HTML",
+  "content": "Feedback from participant after experiment.",
+  "tableView": false,
+  "refreshOnChange": false
+},
+{
+  "key": "question_1",
+  "data": {
+    "values": [
+      {
+        "label": "1",
+        "value": "1"
+      },
+      {
+        "label": "2",
+        "value": "2"
+      },
+      {
+        "label": "3",
+        "value": "3"
+      },
+      {
+        "label": "4",
+        "value": "4"
+      },
+      {
+        "label": "5",
+        "value": "5"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "1. How difficult was it to stay focused for the entire duration of the experiment?",
+  "widget": "choicesjs",
+  "tableView": true,
+  "description": "1 = Not at all\n5 = Very"
+},
+{
+  "key": "question_2",
+  "data": {
+    "values": [
+      {
+        "label": "Yes",
+        "value": "yes"
+      },
+      {
+        "label": "No",
+        "value": "no"
+      },
+      {
+        "label": "Maybe",
+        "value": "maybe"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "2. Did you notice that the stimuli duration varied?",
+  "widget": "choicesjs",
+  "tableView": true
+},
+{
+  "key": "question_3_short",
+  "data": {
+    "values": [
+      {
+        "label": "1",
+        "value": "1"
+      },
+      {
+        "label": "2",
+        "value": "2"
+      },
+      {
+        "label": "3",
+        "value": "3"
+      },
+      {
+        "label": "4",
+        "value": "4"
+      },
+      {
+        "label": "5",
+        "value": "5"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "3. When stimuli were presented for a short period of time, were you able to focus on them for as long as they were presented?",
+  "widget": "choicesjs",
+  "tableView": true,
+  "description": "1 = Never\n5 = Every time"
+},
+{
+  "key": "question_3_middle",
+  "data": {
+    "values": [
+      {
+        "label": "1",
+        "value": "1"
+      },
+      {
+        "label": "2",
+        "value": "2"
+      },
+      {
+        "label": "3",
+        "value": "3"
+      },
+      {
+        "label": "4",
+        "value": "4"
+      },
+      {
+        "label": "5",
+        "value": "5"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "4. When stimuli were presented for a medium period of time, were you able to focus on them for as long as they were presented?",
+  "widget": "choicesjs",
+  "tableView": true,
+  "description": "1 = Never\n5 = Every time"
+},
+{
+  "key": "question_3_long",
+  "data": {
+    "values": [
+      {
+        "label": "1",
+        "value": "1"
+      },
+      {
+        "label": "2",
+        "value": "2"
+      },
+      {
+        "label": "3",
+        "value": "3"
+      },
+      {
+        "label": "4",
+        "value": "4"
+      },
+      {
+        "label": "5",
+        "value": "5"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "5. When stimuli were presented for a long period of time, were you able to focus on them for as long as they were presented?",
+  "widget": "choicesjs",
+  "tableView": true,
+  "description": "1 = Never\n5 = Every time"
+},
+{
+  "key": "question_4",
+  "data": {
+    "values": [
+      {
+        "label": "1",
+        "value": "1"
+      },
+      {
+        "label": "2",
+        "value": "2"
+      },
+      {
+        "label": "3",
+        "value": "3"
+      },
+      {
+        "label": "4",
+        "value": "4"
+      },
+      {
+        "label": "5",
+        "value": "5"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "6. Was it difficult to keep the targets in memory for the entirety of a block?",
+  "widget": "choicesjs",
+  "tableView": true,
+  "description": "1 = Not at all\n5 = Difficult"
+},
+{
+  "key": "question_5_faces",
+  "data": {
+    "values": [
+      {
+        "label": "1",
+        "value": "1"
+      },
+      {
+        "label": "2",
+        "value": "2"
+      },
+      {
+        "label": "3",
+        "value": "3"
+      },
+      {
+        "label": "4",
+        "value": "4"
+      },
+      {
+        "label": "5",
+        "value": "5"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "7. For each stimulus category, how hard was it to recognize them among the other stimuli? [Faces]",
+  "widget": "choicesjs",
+  "tableView": true,
+  "description": "1 = Very easy\n5 = Very hard"
+},
+{
+  "key": "question_5_object",
+  "data": {
+    "values": [
+      {
+        "label": "1",
+        "value": "1"
+      },
+      {
+        "label": "2",
+        "value": "2"
+      },
+      {
+        "label": "3",
+        "value": "3"
+      },
+      {
+        "label": "4",
+        "value": "4"
+      },
+      {
+        "label": "5",
+        "value": "5"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "8. For each stimulus category, how hard was it to recognize them among the other stimuli? [Object]",
+  "widget": "choicesjs",
+  "tableView": true,
+  "description": "1 = Very easy\n5 = Very hard"
+},
+{
+  "key": "question_5_letters",
+  "data": {
+    "values": [
+      {
+        "label": "1",
+        "value": "1"
+      },
+      {
+        "label": "2",
+        "value": "2"
+      },
+      {
+        "label": "3",
+        "value": "3"
+      },
+      {
+        "label": "4",
+        "value": "4"
+      },
+      {
+        "label": "5",
+        "value": "5"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "9. For each stimulus category, how hard was it to recognize them among the other stimuli? [Letters]",
+  "widget": "choicesjs",
+  "tableView": true,
+  "description": "1 = Very easy\n5 = Very hard"
+},
+{
+  "key": "html",
+  "type": "htmlelement",
+  "input": false,
+  "label": "HTML",
+  "tableView": false
+},
+{
+  "key": "question_5_symbols",
+  "data": {
+    "values": [
+      {
+        "label": "1",
+        "value": "1"
+      },
+      {
+        "label": "2",
+        "value": "2"
+      },
+      {
+        "label": "3",
+        "value": "3"
+      },
+      {
+        "label": "4",
+        "value": "4"
+      },
+      {
+        "label": "5",
+        "value": "5"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "10. For each stimulus category, how hard was it to recognize them among the other stimuli? [Symbols]",
+  "widget": "choicesjs",
+  "tableView": true,
+  "description": "1 = Very easy\n5 = Very hard"
+},
+{
+  "key": "question_6",
+  "data": {
+    "values": [
+      {
+        "label": "Yes",
+        "value": "yes"
+      },
+      {
+        "label": "No",
+        "value": "no"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "11. Were specific stimuli orientations harder to recognize than others?",
+  "widget": "choicesjs",
+  "tableView": true
+},
+{
+  "key": "question_7",
+  "data": {
+    "values": [
+      {
+        "label": "Facing straight",
+        "value": "facingStraight"
+      },
+      {
+        "label": "Facing to the right",
+        "value": "facingToTheRight"
+      },
+      {
+        "label": "Facing to the left",
+        "value": "facingToTheLeft"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "12. If yes, which ones?",
+  "widget": "choicesjs",
+  "tableView": true
+},
+{
+  "key": "question_8",
+  "data": {
+    "values": [
+      {
+        "label": "Too long",
+        "value": "tooLong"
+      },
+      {
+        "label": "Fine as is",
+        "value": "fineAsIs"
+      },
+      {
+        "label": "Too short",
+        "value": "tooShort"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "13. What did you think of the block length?",
+  "widget": "choicesjs",
+  "tableView": true
+},
+{
+  "key": "question_9",
+  "data": {
+    "values": [
+      {
+        "label": "Yes",
+        "value": "yes"
+      },
+      {
+        "label": "No",
+        "value": "no"
+      },
+      {
+        "label": "N/A",
+        "value": "nA"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "14. Would the task have been easier if the stimulus duration didn't vary so much?",
+  "widget": "choicesjs",
+  "tableView": true
+},
+{
+  "key": "question_10",
+  "type": "textfield",
+  "input": true,
+  "label": "15. Do you have any additional comments to share?",
+  "tableView": true
+}

@@ -1,0 +1,85 @@
+{
+    "title": "Devices",
+    "display": "form",
+    "components": [
+      {
+        "key": "deviceTypeList",
+        "type": "editgrid",
+        "input": true,
+        "label": "Device Types",
+        "rowDrafts": false,
+        "tableView": false,
+        "components": [
+          {
+            "key": "html",
+            "type": "htmlelement",
+            "attrs": [
+              {
+                "attr": "",
+                "value": ""
+              }
+            ],
+            "input": false,
+            "label": "HTML",
+            "content": "Details about various devices involved in the experiment.",
+            "tableView": false,
+            "refreshOnChange": false
+          },
+          {
+            "key": "name",
+            "type": "textfield",
+            "input": true,
+            "label": "Name",
+            "tableView": true
+          },
+          {
+            "key": "description",
+            "type": "textfield",
+            "input": true,
+            "label": "Description",
+            "tableView": true
+          },
+          {
+            "key": "type",
+            "type": "textfield",
+            "input": true,
+            "label": "Type",
+            "tableView": true
+          },
+          {
+            "key": "properties1",
+            "type": "datamap",
+            "input": true,
+            "label": "Resources",
+            "tableView": false,
+            "valueComponent": {
+              "key": "value",
+              "type": "textfield",
+              "input": true,
+              "label": "Value",
+              "multiple": true,
+              "hideLabel": true,
+              "tableView": true
+            }
+          },
+          {
+            "key": "properties2",
+            "type": "datamap",
+            "input": true,
+            "label": "Properties",
+            "tableView": false,
+            "valueComponent": {
+              "key": "value",
+              "type": "textfield",
+              "input": true,
+              "label": "Value",
+              "multiple": true,
+              "hideLabel": true,
+              "tableView": true
+            }
+          }
+        ],
+        "displayAsTable": true
+      }
+    ]
+  }

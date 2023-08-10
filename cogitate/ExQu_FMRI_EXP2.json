@@ -1,0 +1,561 @@
+{
+  "key": "html",
+  "type": "htmlelement",
+  "attrs": [
+    {
+      "attr": "",
+      "value": ""
+    }
+  ],
+  "input": false,
+  "label": "HTML",
+  "content": "Feedback from participant after experiment.",
+  "tableView": false,
+  "refreshOnChange": false
+},
+{
+  "key": "inTermsOfEngagement",
+  "data": {
+    "values": [
+      {
+        "label": "I wasn't engaged at all",
+        "value": "iWasntEngagedAtAll"
+      },
+      {
+        "label": "I was a little engaged",
+        "value": "iWasALittleEngaged"
+      },
+      {
+        "label": "I was mostly engaged",
+        "value": "iWasMostlyEngaged"
+      },
+      {
+        "label": "I was really engaged",
+        "value": "iWasReallyEngaged"
+      },
+      {
+        "label": "Other",
+        "value": "other"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "1. In terms of engagement...",
+  "widget": "choicesjs",
+  "tableView": true
+},
+{
+  "key": "inTheLastLevelOfTheVideoGameYouPlayedWhichFingerWasUsedToReportYes",
+  "data": {
+    "values": [
+      {
+        "label": "Left",
+        "value": "left"
+      },
+      {
+        "label": "Right",
+        "value": "right"
+      },
+      {
+        "label": "I don't remember",
+        "value": "iDontRemember"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "2. In the last level of the video game you played, which finger was used to report 'yes'?",
+  "widget": "choicesjs",
+  "tableView": true
+},
+{
+  "key": "regardingTheBackgroundStimuliDuringTheVideoGameTaskOverallHowWellDidYouSeeTheBackgroundStimuliFacesObjects",
+  "data": {
+    "values": [
+      {
+        "label": "Not at all",
+        "value": "notAtAll"
+      },
+      {
+        "label": "A little",
+        "value": "aLittle"
+      },
+      {
+        "label": "So and so",
+        "value": "soAndSo"
+      },
+      {
+        "label": "Completely",
+        "value": "completely"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "3. Regarding the background stimuli during the video game task [Overall, how well did you see the background stimuli (faces/objects)?]",
+  "widget": "choicesjs",
+  "tableView": true
+},
+{
+  "key": "regardingTheBackgroundStimuliDuringTheVideoGameTaskDidYouFeelThatYouArePuttingEffortIntoSeeingTheseStimuli",
+  "data": {
+    "values": [
+      {
+        "label": "Not at all",
+        "value": "notAtAll"
+      },
+      {
+        "label": "A little",
+        "value": "aLittle"
+      },
+      {
+        "label": "So and so",
+        "value": "soAndSo"
+      },
+      {
+        "label": "Completely",
+        "value": "completely"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "4. Regarding the background stimuli during the video game task [Did you feel that you are putting effort into seeing these stimuli?]",
+  "widget": "choicesjs",
+  "tableView": true
+},
+{
+  "key": "regardingTheBackgroundStimuliDuringTheVideoGameTaskDidYouFeelThatFacesWereEasierToSpotThanObjects",
+  "data": {
+    "values": [
+      {
+        "label": "Not at all",
+        "value": "notAtAll"
+      },
+      {
+        "label": "A little",
+        "value": "aLittle"
+      },
+      {
+        "label": "So and so",
+        "value": "soAndSo"
+      },
+      {
+        "label": "Completely",
+        "value": "completely"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "5. Regarding the background stimuli during the video game task [Did you feel that faces were easier to spot than objects?]",
+  "widget": "choicesjs",
+  "tableView": true
+},
+{
+  "key": "regardingTheReplayLevelsOverallHowWellDidYouSeeTheBackgroundStimuliFacesObjects",
+  "data": {
+    "values": [
+      {
+        "label": "Not at all",
+        "value": "notAtAll"
+      },
+      {
+        "label": "A little",
+        "value": "aLittle"
+      },
+      {
+        "label": "So and so",
+        "value": "soAndSo"
+      },
+      {
+        "label": "Completely",
+        "value": "completely"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "6. Regarding the replay levels [Overall, how well did you see the background stimuli (faces/objects)?]",
+  "widget": "choicesjs",
+  "tableView": true
+},
+{
+  "key": "regardingTheReplayLevelsDidYouFeelThatYouArePuttingEffortIntoSeeingTheseStimuli",
+  "data": {
+    "values": [
+      {
+        "label": "Not at all",
+        "value": "notAtAll"
+      },
+      {
+        "label": "A little",
+        "value": "aLittle"
+      },
+      {
+        "label": "So and so",
+        "value": "soAndSo"
+      },
+      {
+        "label": "Completely",
+        "value": "completely"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "7. Regarding the replay levels [Did you feel that you are putting effort into seeing these stimuli?]",
+  "widget": "choicesjs",
+  "tableView": true
+},
+{
+  "key": "regardingTheReplayLevelsDidYouFindTheReplayOfTheGameDistracting",
+  "data": {
+    "values": [
+      {
+        "label": "Not at all",
+        "value": "notAtAll"
+      },
+      {
+        "label": "A little",
+        "value": "aLittle"
+      },
+      {
+        "label": "So and so",
+        "value": "soAndSo"
+      },
+      {
+        "label": "Completely",
+        "value": "completely"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "8. Regarding the replay levels [Did you find the replay of the game distracting?]",
+  "widget": "choicesjs",
+  "tableView": true
+},
+{
+  "key": "regardingTheReplayLevelsDidYouFeelThatFacesWereEasierToSpotThanObjects",
+  "data": {
+    "values": [
+      {
+        "label": "Not at all",
+        "value": "notAtAll"
+      },
+      {
+        "label": "A little",
+        "value": "aLittle"
+      },
+      {
+        "label": "So and so",
+        "value": "soAndSo"
+      },
+      {
+        "label": "Completely",
+        "value": "completely"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "9. Regarding the replay levels [Did you feel that faces were easier to spot than objects?]",
+  "widget": "choicesjs",
+  "tableView": true
+},
+{
+  "key": "regardingTheReplayLevelsHowDifficultDidYouFindItToDiscriminateFacesObjectsFromTheScrambledBlobs",
+  "data": {
+    "values": [
+      {
+        "label": "Not at all",
+        "value": "notAtAll"
+      },
+      {
+        "label": "A little",
+        "value": "aLittle"
+      },
+      {
+        "label": "So and so",
+        "value": "soAndSo"
+      },
+      {
+        "label": "Completely",
+        "value": "completely"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "10. Regarding the replay levels [How difficult did you find it to discriminate faces/objects from the scrambled blobs?]",
+  "widget": "choicesjs",
+  "tableView": true
+},
+{
+  "key": "regardingTheDecisionsAboutSeeingTheFacesObjectsInTheBackgroundHowOftenWereYouUnsureAboutHowYouShouldAnswer",
+  "data": {
+    "values": [
+      {
+        "label": "Not at all",
+        "value": "notAtAll"
+      },
+      {
+        "label": "A little",
+        "value": "aLittle"
+      },
+      {
+        "label": "So and so",
+        "value": "soAndSo"
+      },
+      {
+        "label": "Completely",
+        "value": "completely"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "11. Regarding the decisions about seeing the faces/objects in the background... [How often were you unsure about how you should answer?]",
+  "widget": "choicesjs",
+  "tableView": true
+},
+{
+  "key": "regardingTheDecisionsAboutSeeingTheFacesObjectsInTheBackgroundHowOftenDidYouSeeSomethingButWereUnsureWhetherItWasAFaceOrAnObject",
+  "data": {
+    "values": [
+      {
+        "label": "Never",
+        "value": "never"
+      },
+      {
+        "label": "Occasionally",
+        "value": "occasionally"
+      },
+      {
+        "label": "Often",
+        "value": "often"
+      },
+      {
+        "label": "Almost always",
+        "value": "almostAlways"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "12. Regarding the decisions about seeing the faces/objects in the background... [How often did you see something but were unsure whether it was a face or an object?]",
+  "widget": "choicesjs",
+  "tableView": true
+},
+{
+  "key": "regardingTheDecisionsAboutSeeingTheFacesObjectsInTheBackgroundWhenYouAnsweredYesISawAFaceObjectHowOftenWereYouUnsureAboutWhenYouSawAFaceObjectInTheCuedLocation",
+  "data": {
+    "values": [
+      {
+        "label": "Never",
+        "value": "never"
+      },
+      {
+        "label": "Occasionally",
+        "value": "occasionally"
+      },
+      {
+        "label": "Often",
+        "value": "often"
+      },
+      {
+        "label": "Almost always",
+        "value": "almostAlways"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "13. Regarding the decisions about seeing the faces/objects in the background... [When you answered 'yes, I saw a face/object', how often were you unsure about when you saw a face/object in the cued location (e.g., just before the question vs. several seconds earlier)?]",
+  "widget": "choicesjs",
+  "tableView": true
+},
+{
+  "key": "regardingTheDecisionsAboutSeeingTheFacesObjectsInTheBackgroundHowOftenDidYouFeelYouPressedTheWrongButtonByMistake",
+  "data": {
+    "values": [
+      {
+        "label": "Never",
+        "value": "never"
+      },
+      {
+        "label": "Occasionally",
+        "value": "occasionally"
+      },
+      {
+        "label": "Often",
+        "value": "often"
+      },
+      {
+        "label": "Almost always",
+        "value": "almostAlways"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "14. Regarding the decisions about seeing the faces/objects in the background... [How often did you feel you pressed the wrong button by mistake?]",
+  "widget": "choicesjs",
+  "tableView": true
+},
+{
+  "key": "ifTheOptionsForReportingWhetherYouSawTheFacesObjectsWereTooLimitedToDescribeWhatYouActuallyExperiencedHowWouldYouChangeTheseOptionsToBetterMatchWhatYouSaw",
+  "data": {
+    "values": [
+      {
+        "label": "Never",
+        "value": "never"
+      },
+      {
+        "label": "Occasionally",
+        "value": "occasionally"
+      },
+      {
+        "label": "Often",
+        "value": "often"
+      },
+      {
+        "label": "Almost always",
+        "value": "almostAlways"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "15. If the options for reporting whether you saw the faces/objects were too limited to describe what you actually experienced, how would you change these options to better match what you saw?",
+  "widget": "choicesjs",
+  "tableView": true
+},
+{
+  "key": "ifTheOptionsForReportingWereTooLimitedToDescribeWhatYouActuallyExperiencedHowWouldYouChangeTheseOptionsToBetterMatchWhatYouSaw",
+  "data": {
+    "values": [
+      {
+        "label": "Yes",
+        "value": "yes"
+      },
+      {
+        "label": "No",
+        "value": "no"
+      },
+      {
+        "label": "I am not sure",
+        "value": "iAmNotSure"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "16. If the options for reporting whether you saw the faces/objects were too limited to describe what you actually experienced, how would you change these options to better match what you saw?",
+  "widget": "choicesjs",
+  "tableView": true
+},
+{
+  "key": "howOftenDidYouFeelThatYouDidNotSeeTheFaceObjectWhenItAppearedButBecauseTheArrowPointedAtItsDirectionYouFeltInRetrospectThatItWasIndeedActuallyThere",
+  "data": {
+    "values": [
+      {
+        "label": "Never",
+        "value": "never"
+      },
+      {
+        "label": "Occasionally",
+        "value": "occasionally"
+      },
+      {
+        "label": "Often",
+        "value": "often"
+      },
+      {
+        "label": "Almost always",
+        "value": "almostAlways"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "17. How often did you feel that you did not see the face/object when it appeared, but because the arrow pointed at its direction, you felt in retrospect that it was indeed actually there (something like a 'oh, yeah, it was there!')?",
+  "widget": "choicesjs",
+  "tableView": true
+},
+{
+  "key": "question_18",
+  "type": "textfield",
+  "input": true,
+  "label": "18. Can you please estimate how many times you were confused and pressed YES instead of NO or vice versa?",
+  "tableView": true
+},
+{
+  "key": "canYouPleaseEstimateHowManyTimesYouWereConfusedAndPressedYesInsteadOfNoOrViceVersa",
+  "data": {
+    "values": [
+      {
+        "label": "Most of the times",
+        "value": "mostOfTheTimes"
+      },
+      {
+        "label": "Sometimes",
+        "value": "sometimes"
+      },
+      {
+        "label": "A few times",
+        "value": "aFewTimes"
+      },
+      {
+        "label": "Rarely",
+        "value": "rarely"
+      },
+      {
+        "label": "Not once",
+        "value": "notOnce"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "19. Can you please estimate how many times you were confused and pressed 'yes' instead of 'no' or vice versa?",
+  "widget": "choicesjs",
+  "tableView": true
+},
+{
+  "key": "doYouHaveAnyPriorExperiencePlayingVideoGames",
+  "data": {
+    "values": [
+      {
+        "label": "I play regularly",
+        "value": "iPlayRegularly"
+      },
+      {
+        "label": "I play sometimes",
+        "value": "iPlaySometimes"
+      },
+      {
+        "label": "I used to play in the past",
+        "value": "iUsedToPlayInThePast"
+      },
+      {
+        "label": "No, I don't have experience in playing video games",
+        "value": "noIDontHaveExperienceInPlayingVideoGames"
+      }
+    ]
+  },
+  "type": "xnatSelect",
+  "input": true,
+  "label": "20. Do you have any prior experience playing video games?",
+  "widget": "choicesjs",
+  "tableView": true
+},
+{
+  "key": "question_21",
+  "type": "textfield",
+  "input": true,
+  "label": "21. Any other comments? We read every piece of feedback.",
+  "tableView": true
+}

@@ -1,0 +1,85 @@
+{
+    "title": "Lab",
+    "display": "form",
+    "settings": {},
+    "components": [
+      {
+        "key": "html",
+        "type": "htmlelement",
+        "attrs": [
+          {
+            "attr": "",
+            "value": ""
+          }
+        ],
+        "input": false,
+        "label": "HTML",
+        "content": "Details about the lab.",
+        "tableView": false,
+        "refreshOnChange": false
+      },
+      {
+        "key": "official_name",
+        "type": "textfield",
+        "input": true,
+        "label": "Official Name",
+        "tableView": true
+      },
+      {
+        "key": "principal_investigator",
+        "type": "textfield",
+        "input": true,
+        "label": "Principal Investigator",
+        "tableView": true
+      },
+      {
+        "key": "institute",
+        "type": "textfield",
+        "input": true,
+        "label": "Institute",
+        "tableView": true
+      },
+      {
+        "key": "department",
+        "type": "textfield",
+        "input": true,
+        "label": "Department",
+        "tableView": true
+      },
+      {
+        "key": "location",
+        "type": "textfield",
+        "input": true,
+        "label": "Location",
+        "tableView": true
+      },
+      {
+        "key": "contact_phone",
+        "type": "textfield",
+        "input": true,
+        "label": "Contact Phone",
+        "tableView": true
+      },
+      {
+        "key": "contact_email",
+        "type": "textfield",
+        "input": true,
+        "label": "Contact Email",
+        "tableView": true
+      },
+      {
+        "key": "contact_website",
+        "type": "textfield",
+        "input": true,
+        "label": "Contact Website",
+        "tableView": true
+      },
+      {
+        "key": "contact_address",
+        "type": "textfield",
+        "input": true,
+        "label": "Contact Address",
+        "tableView": true
+      }
+    ]
+  }

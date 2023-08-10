@@ -1,0 +1,47 @@
+{
+  "title": "MPI Demographics",
+  "display": "form",
+  "settings": {},
+  "components": [
+    {
+      "key": "health_history_of_medical_conditions",
+      "type": "textfield",
+      "input": true,
+      "label": "Health History",
+      "tableView": true,
+      "description": "Known history of medical conditions."
+    },
+    {
+      "key": "psychiatric_history",
+      "type": "textfield",
+      "input": true,
+      "label": "Psychiatric History",
+      "tableView": true,
+      "description": "Known history of psychiatric medical conditions."
+    },
+    {
+      "key": "substance_use",
+      "type": "textfield",
+      "input": true,
+      "label": "Substance Use",
+      "tableView": true,
+      "description": "Known history of substance / drug use."
+    },
+    {
+      "key": "history_of_medication",
+      "type": "textfield",
+      "input": true,
+      "label": "History of medication",
+      "tableView": true,
+      "description": "Known history of medication."
+    },
+    {
+      "key": "musical_training",
+      "type": "textfield",
+      "input": true,
+      "label": "Musical Training",
+      "tableView": true,
+      "description": "Does the subject have musical training?"
+    }
+  ]
+}

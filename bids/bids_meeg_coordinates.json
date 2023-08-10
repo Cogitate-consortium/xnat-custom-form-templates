@@ -1,0 +1,175 @@
+{
+  "title": "BIDS MEEG Coordinatesystem",
+  "display": "form",
+  "settings": {},
+  "components": [
+    {
+      "key": "megCoordinateSystem",
+      "type": "textfield",
+      "input": true,
+      "label": "MEG Coordinate System",
+      "tableView": true
+    },
+    {
+      "key": "megCoordinateUnits",
+      "type": "textfield",
+      "input": true,
+      "label": "MEG Coordinate Units",
+      "tableView": true
+    },
+    {
+      "key": "megCoordinateSystemDescription",
+      "type": "textfield",
+      "input": true,
+      "label": "MEG Coordinate System Description",
+      "tableView": true
+    },
+    {
+      "key": "eegCoordinateSystem",
+      "type": "textfield",
+      "input": true,
+      "label": "EEG Coordinate System",
+      "tableView": true
+    },
+    {
+      "key": "eegCoordinateUnits",
+      "type": "textfield",
+      "input": true,
+      "label": "EEG Coordinate Units",
+      "tableView": true
+    },
+    {
+      "key": "eegCoordinateSystemDescription",
+      "type": "textfield",
+      "input": true,
+      "label": "EEG Coordinate System Description",
+      "tableView": true
+    },
+    {
+      "key": "HeadCoilCoordinates",
+      "type": "textfield",
+      "input": true,
+      "label": "Head Coil Coordinates",
+      "tableView": true
+    },
+    {
+      "key": "HeadCoilCoordinateSystem",
+      "type": "textfield",
+      "input": true,
+      "label": "Head Coil Coordinate System",
+      "tableView": true
+    },
+    {
+      "key": "HeadCoilCoordinateUnits",
+      "type": "textfield",
+      "input": true,
+      "label": "Head Coil Coordinate Units",
+      "tableView": true
+    },
+    {
+      "key": "HeadCoilCoordinateSystemDescription",
+      "type": "textfield",
+      "input": true,
+      "label": "Head Coil Coordinate System Description",
+      "tableView": true
+    },
+    {
+      "key": "DigitizedHeadPoints",
+      "type": "textfield",
+      "input": true,
+      "label": "Digitized Head Points",
+      "tableView": true
+    },
+    {
+      "key": "DigitizedHeadPointsCoordinateSystem",
+      "type": "textfield",
+      "input": true,
+      "label": "Digitized Head Points Coordinate System",
+      "tableView": true
+    },
+    {
+      "key": "DigitizedHeadPointsCoordinateUnits",
+      "type": "textfield",
+      "input": true,
+      "label": "Digitized Head Points Coordinate Units",
+      "tableView": true
+    },
+    {
+      "key": "DigitizedHeadPointsCoordinateSystem",
+      "type": "textfield",
+      "input": true,
+      "label": "Digitized Head Coordinate System",
+      "tableView": true
+    },
+    {
+      "key": "DigitizedHeadPointsCoordinateSystemDescriptions",
+      "type": "textfield",
+      "input": true,
+      "label": "Digitized Head Points Coordinate System Descriptions",
+      "tableView": true
+    },
+    {
+      "key": "FiducialsDescription",
+      "type": "textfield",
+      "input": true,
+      "label": "Fiducials Descriptions",
+      "tableView": true
+    },
+    {
+      "key": "FiducialsCoordinates",
+      "type": "textfield",
+      "input": true,
+      "label": "Fiducials Coordinates",
+      "tableView": true
+    },
+    {
+      "key": "FiducialsCoordinateSystem",
+      "type": "textfield",
+      "input": true,
+      "label": "Fiducials Coordinate System",
+      "tableView": true
+    },
+    {
+      "key": "FiducialsCoordinateUnits",
+      "type": "textfield",
+      "input": true,
+      "label": "Fiducials Coordinates Units",
+      "tableView": true
+    },
+    {
+      "key": "FiducialsCoordinateSystemDescriptions",
+      "type": "textfield",
+      "input": true,
+      "label": "Fiducials Coordinates",
+      "tableView": true
+    },
+    {
+      "key": "AnatomicalLandmarkCoordinates",
+      "type": "textfield",
+      "input": true,
+      "label": "Anatomical Landmark Coordinates",
+      "tableView": true
+    },
+    {
+      "key": "AnatomicalLandmarkCoordinateSystem",
+      "type": "textfield",
+      "input": true,
+      "label": "Anatomical Landmark Coordinate System",
+      "tableView": true
+    },
+    {
+      "key": "AnatomicalLandmarkCoordinateUnits",
+      "type": "textfield",
+      "input": true,
+      "label": "Anatomical Landmark Coordinate Units",
+      "tableView": true
+    },
+    {
+      "key": "AnatomicalLandmarkCoordinateSystemDescription",
+      "type": "textfield",
+      "input": true,
+      "label": "Anatomical Landmark Coordinate System Description",
+      "tableView": true
+    }
+  ]
+}

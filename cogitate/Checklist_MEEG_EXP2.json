@@ -1,0 +1,361 @@
+{
+  "key": "panel",
+  "type": "panel",
+  "input": false,
+  "label": "Panel",
+  "tableView": false,
+  "components": [
+    {
+      "key": "html",
+      "type": "htmlelement",
+      "attrs": [
+        {
+          "attr": "",
+          "value": ""
+        }
+      ],
+      "input": false,
+      "label": "HTML",
+      "content": "MEG Experiment Checklist.",
+      "tableView": false,
+      "refreshOnChange": false
+    }
+  ],
+  "collapsible": false
+},
+{
+  "key": "before_the_experiment.equipment_setup.refresh_rate_is_120hz",
+  "type": "checkbox",
+  "input": true,
+  "label": "Refresh Rate is 120Hz",
+  "tableView": true
+},
+{
+  "key": "before_the_experiment.equipment_setup.screen_resolution_is_1920x1080",
+  "type": "checkbox",
+  "input": true,
+  "label": "Screen Resolution is 1920x1080",
+  "tableView": true
+},
+{
+  "key": "before_the_experiment.equipment_setup.test_code_orange_and_blue_a_tale_of_falling_essences.exe",
+  "type": "checkbox",
+  "input": true,
+  "label": "Test Code Orange and Blue: A Tale of Falling Essences.exe",
+  "tableView": true
+},
+{
+  "key": "before_the_experiment.equipment_setup.check_graphic_quality_is_ultra",
+  "type": "checkbox",
+  "input": true,
+  "label": "Check Graphic Quality is Ultra",
+  "tableView": true
+},
+{
+  "key": "before_the_experiment.equipment_setup.check_select_monitor_is_display_1",
+  "type": "checkbox",
+  "input": true,
+  "label": "Check Select Monitor is Display 1",
+  "tableView": true
+},
+{
+  "key": "before_the_experiment.equipment_setup.enter_subject_parameters_and_select_MEG_mode",
+  "type": "checkbox",
+  "input": true,
+  "label": "Enter Subject Parameters and Select MEG Mode",
+  "tableView": true
+},
+{
+  "key": "before_the_experiment.equipment_setup.check_visual_stimulus_display",
+  "type": "checkbox",
+  "input": true,
+  "label": "Check Visual Stimulus Display",
+  "tableView": true
+},
+{
+  "key": "before_the_experiment.subject_preparation.gather_subject_demographic_info",
+  "type": "checkbox",
+  "input": true,
+  "label": "Gather Subject Demographic Info",
+  "tableView": true
+},
+{
+  "key": "before_the_experiment.subject_preparation.check_participant_read_information_sheet",
+  "type": "checkbox",
+  "input": true,
+  "label": "Check Participant Read Information Sheet",
+  "tableView": true
+},
+{
+  "key": "before_the_experiment.subject_preparation.check_participant_is_metal_free",
+  "type": "checkbox",
+  "input": true,
+  "label": "Check Participant is Metal-Free",
+  "tableView": true
+},
+{
+  "key": "before_the_experiment.subject_preparation.check_participant_meg_signal_before_subject_preparation",
+  "type": "checkbox",
+  "input": true,
+  "label": "Check Participant MEG Signal Before Subject Preparation",
+  "tableView": true
+},
+{
+  "key": "before_the_experiment.subject_preparation.make_sure_distance_from_screen_is_119_cm",
+  "type": "checkbox",
+  "input": true,
+  "label": "Make Sure Distance from Screen is 119 cm",
+  "tableView": true
+},
+{
+  "key": "before_the_experiment.subject_preparation.check_gantry_position_is_68_degrees",
+  "type": "checkbox",
+  "input": true,
+  "label": "Check Gantry Position is 68 Degrees",
+  "tableView": true
+},
+{
+  "key": "before_the_experiment.subject_preparation.check_meg_signal_visual_inspection_of_noise_and_bad_channels",
+  "type": "checkbox",
+  "input": true,
+  "label": "Check MEG Signal Visual Inspection of Noise and Bad Channels",
+  "tableView": true
+},
+{
+  "key": "before_the_experiment.subject_preparation.check_triggers_from_stimulus_pc_trigger_box_and_acquisition_pc",
+  "type": "checkbox",
+  "input": true,
+  "label": "Check Triggers from Stimulus PC Trigger Box and Acquisition PC",
+  "tableView": true
+},
+{
+  "key": "before_the_experiment.subject_preparation.turn_on_the_lights",
+  "type": "checkbox",
+  "input": true,
+  "label": "Turn On the Lights",
+  "tableView": true
+},
+{
+  "key": "before_the_experiment.subject_preparation.check_response_box",
+  "type": "checkbox",
+  "input": true,
+  "label": "Check Response Box",
+  "tableView": true
+},
+{
+  "key": "before_the_experiment.subject_preparation.check_eyetracker_pc_ini_file",
+  "type": "checkbox",
+  "input": true,
+  "label": "Check Eyetracker PC INI File",
+  "tableView": true
+},
+{
+  "key": "before_the_experiment.subject_preparation.check_eyetracker_camera_powered_and_in_position",
+  "type": "checkbox",
+  "input": true,
+  "label": "Check Eyetracker Camera Powered and in Position",
+  "tableView": true
+},
+{
+  "key": "before_the_experiment.subject_preparation.check_photodiode_powered_and_in_position",
+  "type": "checkbox",
+  "input": true,
+  "label": "Check Photodiode Powered and in Position",
+  "tableView": true
+},
+{
+  "key": "before_the_experiment.subject_preparation.eeg_attached",
+  "type": "checkbox",
+  "input": true,
+  "label": "EEG Attached",
+  "tableView": true
+},
+{
+  "key": "before_the_experiment.subject_preparation.eog_and_ecg_attached",
+  "type": "checkbox",
+  "input": true,
+  "label": "EOG and ECG Attached",
+  "tableView": true
+},
+{
+  "key": "before_the_experiment.subject_preparation.hpi_coils_attached",
+  "type": "checkbox",
+  "input": true,
+  "label": "HPI Coils Attached",
+  "tableView": true
+},
+{
+  "key": "before_the_experiment.subject_preparation.hpi_coils_eeg_electrodes_and_head_shape_digitalized",
+  "type": "checkbox",
+  "input": true,
+  "label": "HPI Coils, EEG Electrodes, and Head Shape Digitalized",
+  "tableView": true
+},
+{
+  "key": "during_the_experiment.experimental_parameters.sampling_rate_is_1000hz",
+  "type": "checkbox",
+  "input": true,
+  "label": "Sampling Rate is 1000Hz",
+  "tableView": true
+},
+{
+  "key": "during_the_experiment.experimental_parameters.bandpass_filtering_is_between_0.1_to_330hz",
+  "type": "checkbox",
+  "input": true,
+  "label": "Bandpass Filtering is Between 0.1 to 330Hz",
+  "tableView": true
+},
+{
+  "key": "during_the_experiment.experimental_parameters.active_shielding_yes_or_no",
+  "type": "checkbox",
+  "input": true,
+  "label": "Active Shielding (Yes or No)",
+  "tableView": true
+},
+{
+  "key": "during_the_experiment.experimental_parameters.eeg_ground_and_reference_is_neck_and_right_cheek",
+  "type": "checkbox",
+  "input": true,
+  "label": "EEG Ground and Reference is Neck and Right Cheek",
+  "tableView": true
+},
+{
+  "key": "during_the_experiment.experimental_parameters.eeg_eog_ecg_impedance_less_than_10_kohm_by_default",
+  "type": "checkbox",
+  "input": true,
+  "label": "EEG, EOG, ECG Impedance Less Than 10 kOhm (by default)",
+  "tableView": true
+},
+{
+  "key": "during_the_experiment.experimental_parameters.hpi_not_continues",
+  "type": "checkbox",
+  "input": true,
+  "label": "HPI Not Continues",
+  "tableView": true
+},
+{
+  "key": "during_the_experiment.experimental_parameters.eye_tracking_sampling_rate_is_1000hz",
+  "type": "checkbox",
+  "input": true,
+  "label": "Eye Tracking Sampling Rate is 1000Hz",
+  "tableView": true
+},
+{
+  "key": "during_the_experiment.experimental_parameters.recorded_eye_is_binocular",
+  "type": "checkbox",
+  "input": true,
+  "label": "Recorded Eye is Binocular",
+  "tableView": true
+},
+{
+  "key": "during_the_experiment.experimental_parameters.empty_room_recording",
+  "type": "checkbox",
+  "input": true,
+  "label": "Empty Room Recording",
+  "tableView": true
+},
+{
+  "key": "during_the_experiment.subject_seating_in_meg_device.eeg_ecg_eog_and_hpi_connected_to_meg_system",
+  "type": "checkbox",
+  "input": true,
+  "label": "EEG, ECG, EOG, and HPI Connected to MEG System",
+  "tableView": true
+},
+{
+  "key": "during_the_experiment.subject_seating_in_meg_device.eyetracker_correctly_tracking_participants_left_eye",
+  "type": "checkbox",
+  "input": true,
+  "label": "Eyetracker Correctly Tracking Participant's Left Eye",
+  "tableView": true
+},
+{
+  "key": "during_the_experiment.subject_seating_in_meg_device.eeg_ecg_eog_impedances_checked_on_meg_pc",
+  "type": "checkbox",
+  "input": true,
+  "label": "EEG, ECG, EOG Impedances Checked on MEG PC",
+  "tableView": true
+},
+{
+  "key": "during_the_experiment.subject_seating_in_meg_device.hpi_accuracy_checked_on_meg_pc",
+  "type": "checkbox",
+  "input": true,
+  "label": "HPI Accuracy Checked on MEG PC",
+  "tableView": true
+},
+{
+  "key": "during_the_experiment.subject_seating_in_meg_device.resting_state_recording",
+  "type": "checkbox",
+  "input": true,
+  "label": "Resting State Recording",
+  "tableView": true
+},
+{
+  "key": "during_the_experiment.subject_seating_in_meg_device.experiment_recording_videogame",
+  "type": "checkbox",
+  "input": true,
+  "label": "Experiment Recording Videogame",
+  "tableView": true
+},
+{
+  "key": "after_the_experiment.debriefing.follow_up_questionnaire",
+  "type": "checkbox",
+  "input": true,
+  "label": "Follow-Up Questionnaire",
+  "tableView": true
+},
+{
+  "key": "after_the_experiment.debriefing.payment",
+  "type": "checkbox",
+  "input": true,
+  "label": "Payment",
+  "tableView": true
+},
+{
+  "key": "after_the_experiment.xnat_data_upload.run_fif_anonymizer",
+  "type": "checkbox",
+  "input": true,
+  "label": "Run FIF Anonymizer",
+  "tableView": true
+},
+{
+  "key": "after_the_experiment.xnat_data_upload.upload_meg_data",
+  "type": "checkbox",
+  "input": true,
+  "label": "Upload MEG Data",
+  "tableView": true
+},
+{
+  "key": "after_the_experiment.xnat_data_upload.upload_eye_tracking_data",
+  "type": "checkbox",
+  "input": true,
+  "label": "Upload Eye Tracking Data",
+  "tableView": true
+},
+{
+  "key": "after_the_experiment.xnat_data_upload.upload_behavioral_data",
+  "type": "checkbox",
+  "input": true,
+  "label": "Upload Behavioral Data",
+  "tableView": true
+},
+{
+  "key": "after_the_experiment.xnat_data_upload.upload_mri_data",
+  "type": "checkbox",
+  "input": true,
+  "label": "Upload MRI Data",
+  "tableView": true
+},
+{
+  "key": "after_the_experiment.local_data_upload.upload_fif_files_on_rds",
+  "type": "checkbox",
+  "input": true,
+  "label": "Upload FIF Files on RDS",
+  "tableView": true
+},
+{
+  "key": "after_the_experiment.local_data_upload.transfer_video_game_logs_on_usb_stick",
+  "type": "checkbox",
+  "input": true,
+  "label": "Transfer Video Game Logs on USB Stick",
+  "tableView": true
+}

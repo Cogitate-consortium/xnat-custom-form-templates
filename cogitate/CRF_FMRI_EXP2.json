@@ -1,0 +1,162 @@
+{
+  "key": "html",
+  "type": "htmlelement",
+  "attrs": [
+    {
+      "attr": "",
+      "value": ""
+    }
+  ],
+  "input": false,
+  "label": "HTML",
+  "content": "FMRI experiment information.",
+  "tableView": false,
+  "refreshOnChange": false
+},
+{
+  "key": "performing_site",
+  "type": "textfield",
+  "input": true,
+  "label": "Performing Site",
+  "tableView": true
+},
+{
+  "key": "subject_id",
+  "type": "textfield",
+  "input": true,
+  "label": "Subject ID",
+  "tableView": true
+},
+{
+  "key": "experimenter_name",
+  "type": "textfield",
+  "input": true,
+  "label": "Experimenter Name",
+  "tableView": true
+},
+{
+  "key": "experiment_date",
+  "type": "textfield",
+  "input": true,
+  "label": "Experiment Date",
+  "tableView": true
+},
+{
+  "key": "experiment_time",
+  "type": "textfield",
+  "input": true,
+  "label": "Experiment Time",
+  "tableView": true
+},
+{
+  "key": "eyetracker_calibration_quality",
+  "type": "textfield",
+  "input": true,
+  "label": "Eyetracker Calibration Quality",
+  "tableView": true
+},
+{
+  "key": "practice_quantitiy",
+  "type": "textfield",
+  "input": true,
+  "label": "Practice Quantity",
+  "tableView": true
+},
+{
+  "key": "errors_problems_setup",
+  "type": "textfield",
+  "input": true,
+  "label": "Errors/Problems during Setup",
+  "tableView": true
+},
+{
+  "key": "notes_vg_1",
+  "type": "textfield",
+  "input": true,
+  "label": "Notes VG 1",
+  "tableView": true
+},
+{
+  "key": "notes_vg_8",
+  "type": "textfield",
+  "input": true,
+  "label": "Notes VG 8",
+  "tableView": true
+},
+{
+  "key": "notes_vg_3",
+  "type": "textfield",
+  "input": true,
+  "label": "Notes VG 3",
+  "tableView": true
+},
+{
+  "key": "notes_vg_4",
+  "type": "textfield",
+  "input": true,
+  "label": "Notes VG 4",
+  "tableView": true
+},
+{
+  "key": "notes_vg_5",
+  "type": "textfield",
+  "input": true,
+  "label": "Notes VG 5",
+  "tableView": true
+},
+{
+  "key": "notes_vg_6",
+  "type": "textfield",
+  "input": true,
+  "label": "Notes VG 6",
+  "tableView": true
+},
+{
+  "key": "notes_vg_7",
+  "type": "textfield",
+  "input": true,
+  "label": "Notes VG 7",
+  "tableView": true
+},
+{
+  "key": "notes_replay_1",
+  "type": "textfield",
+  "input": true,
+  "label": "Notes Replay 1",
+  "tableView": true
+},
+{
+  "key": "notes_replay_2",
+  "type": "textfield",
+  "input": true,
+  "label": "Notes Replay 2",
+  "tableView": true
+},
+{
+  "key": "notes_replay_3",
+  "type": "textfield",
+  "input": true,
+  "label": "Notes Replay 3",
+  "tableView": true
+},
+{
+  "key": "notes_replay_4",
+  "type": "textfield",
+  "input": true,
+  "label": "Notes Replay 4",
+  "tableView": true
+},
+{
+  "key": "notes_evc_localizer",
+  "type": "textfield",
+  "input": true,
+  "label": "Notes EVC Localizer",
+  "tableView": true
+},
+{
+  "key": "errors_problems_after_scanning",
+  "type": "textfield",
+  "input": true,
+  "label": "Errors/Problems After Scanning",
+  "tableView": true
+}

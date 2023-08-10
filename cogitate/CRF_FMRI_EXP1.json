@@ -1,0 +1,78 @@
+{
+  "key": "html",
+  "type": "htmlelement",
+  "attrs": [
+    {
+      "attr": "",
+      "value": ""
+    }
+  ],
+  "input": false,
+  "label": "HTML",
+  "content": "FMRI experiment information.",
+  "tableView": false,
+  "refreshOnChange": false
+},
+{
+  "key": "name",
+  "type": "textfield",
+  "input": true,
+  "label": "Name",
+  "tableView": true
+},
+{
+  "key": "eyetracking_not_working",
+  "type": "textfield",
+  "input": true,
+  "label": "Eyetracking Not Working",
+  "tableView": true
+},
+{
+  "key": "eyetracking_showing_bad_patterns",
+  "type": "textfield",
+  "input": true,
+  "label": "Eyetracking Showing Bad Patterns",
+  "tableView": true
+},
+{
+  "key": "problems_in_task_performance",
+  "type": "textfield",
+  "input": true,
+  "label": "Problems in Task Performance",
+  "tableView": true
+},
+{
+  "key": "strong_head_motion",
+  "type": "textfield",
+  "input": true,
+  "label": "Strong Head Motion",
+  "tableView": true
+},
+{
+  "key": "strong_body_motion",
+  "type": "textfield",
+  "input": true,
+  "label": "Strong Body Motion",
+  "tableView": true
+},
+{
+  "key": "bad_meg_sensors",
+  "type": "textfield",
+  "input": true,
+  "label": "Bad MEG Sensors",
+  "tableView": true
+},
+{
+  "key": "bad_eeg_sensors",
+  "type": "textfield",
+  "input": true,
+  "label": "Bad EEG Sensors",
+  "tableView": true
+},
+{
+  "key": "notes",
+  "type": "textfield",
+  "input": true,
+  "label": "Notes",
+  "tableView": true
+}

@@ -1,0 +1,121 @@
+{
+    "title": "Project",
+    "display": "form",
+    "settings": {},
+    "components": [
+      {
+        "key": "projectStartDate",
+        "type": "datetime",
+        "input": true,
+        "label": "Project Start Date",
+        "format": "yyyy-MM-dd",
+        "widget": {
+          "type": "calendar",
+          "displayInTimezone": "viewer",
+          "locale": "en",
+          "useLocaleSettings": false,
+          "allowInput": true,
+          "mode": "single",
+          "enableTime": false,
+          "noCalendar": false,
+          "format": "yyyy-MM-dd",
+          "hourIncrement": 1,
+          "minuteIncrement": 1,
+          "time_24hr": false,
+          "minDate": null,
+          "disableWeekends": false,
+          "disableWeekdays": false,
+          "maxDate": null
+        },
+        "tableView": false,
+        "datePicker": {
+          "disableWeekdays": false,
+          "disableWeekends": false
+        },
+        "enableTime": false,
+        "enableMaxDateInput": false,
+        "enableMinDateInput": false
+      },
+      {
+        "key": "projectEndDate",
+        "type": "datetime",
+        "input": true,
+        "label": "Project End Date",
+        "format": "yyyy-MM-dd",
+        "widget": {
+          "type": "calendar",
+          "displayInTimezone": "viewer",
+          "locale": "en",
+          "useLocaleSettings": false,
+          "allowInput": true,
+          "mode": "single",
+          "enableTime": false,
+          "noCalendar": false,
+          "format": "yyyy-MM-dd",
+          "hourIncrement": 1,
+          "minuteIncrement": 1,
+          "time_24hr": false,
+          "minDate": null,
+          "disableWeekends": false,
+          "disableWeekdays": false,
+          "maxDate": null
+        },
+        "tableView": false,
+        "datePicker": {
+          "disableWeekdays": false,
+          "disableWeekends": false
+        },
+        "enableTime": false,
+        "enableMaxDateInput": false,
+        "enableMinDateInput": false
+      },
+      {
+        "key": "projectLead",
+        "data": {
+          "custom": "async function fetchInvestigators(){let myValues = []; let investigatorUrl = XNAT.url.restUrl('/xapi/investigators?format=json'); let response = await fetch(investigatorUrl); let investigatorJson = await response.json();  investigatorJson.forEach(function(item) { var o = {};o['label'] = item.title + ' ' + item.firstname + ' ' + item.lastname;o['value'] = item.xnatInvestigatordataId;myValues.push(o);}); return myValues;} values=fetchInvestigators();"
+        },
+        "type": "xnatSelect",
+        "input": true,
+        "label": "Project Lead",
+        "widget": "choicesjs",
+        "dataSrc": "custom",
+        "lazyload": true,
+        "tableView": true,
+        "placeholder": "Select Project Lead here",
+        "customOptions": {
+          "classNames": {
+            "listItems": "chosen-choices"
+          }
+        },
+        "valueProperty": "value"
+      },
+      {
+        "key": "projectManager",
+        "type": "textfield",
+        "input": true,
+        "label": "Project Manager",
+        "tableView": true
+      },
+      {
+        "key": "dataManager",
+        "type": "textfield",
+        "input": true,
+        "label": "Data Manager",
+        "tableView": true
+      },
+      {
+        "key": "projectWebsite",
+        "type": "textfield",
+        "input": true,
+        "label": "Project Website",
+        "tableView": true
+      },
+      {
+        "key": "preRegistration",
+        "type": "textfield",
+        "input": true,
+        "label": "PreRegistration",
+        "tableView": true
+      }
+    ]
+  }

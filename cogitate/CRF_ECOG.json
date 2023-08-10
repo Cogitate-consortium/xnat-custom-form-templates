@@ -1,0 +1,115 @@
+{
+  "key": "html",
+  "type": "htmlelement",
+  "attrs": [
+    {
+      "attr": "",
+      "value": ""
+    }
+  ],
+  "input": false,
+  "label": "HTML",
+  "content": "ECOG experiment information.",
+  "tableView": false,
+  "refreshOnChange": false
+},
+{
+  "key": "task_name",
+  "type": "textfield",
+  "input": true,
+  "label": "Task Name",
+  "tableView": true
+},
+{
+  "key": "stimulus_interface_computer_name",
+  "type": "textfield",
+  "input": true,
+  "label": "Stimulus Interface Computer Name",
+  "tableView": true
+},
+{
+  "key": "distance_cm",
+  "type": "textfield",
+  "input": true,
+  "label": "Distance (cm)",
+  "tableView": true
+},
+{
+  "key": "date_run",
+  "type": "textfield",
+  "input": true,
+  "label": "Date Run",
+  "tableView": true
+},
+{
+  "key": "practice_run",
+  "type": "textfield",
+  "input": true,
+  "label": "Practice Run?",
+  "tableView": true
+},
+{
+  "key": "task_start_time",
+  "type": "textfield",
+  "input": true,
+  "label": "Task Start Time",
+  "tableView": true
+},
+{
+  "key": "task_end_time",
+  "type": "textfield",
+  "input": true,
+  "label": "Task End Time",
+  "tableView": true
+},
+{
+  "key": "preTaskEquipmentDisinfected",
+  "type": "checkbox",
+  "input": true,
+  "label": "Pre-Task - Equipment Disinfected",
+  "tableView": false,
+  "defaultValue": false
+},
+{
+  "key": "postTaskEquipmentDisinfected",
+  "type": "checkbox",
+  "input": true,
+  "label": "Post-Task - Equipment Disinfected",
+  "tableView": false,
+  "defaultValue": false
+},
+{
+  "key": "triggers",
+  "type": "textfield",
+  "input": true,
+  "label": "Triggers",
+  "tableView": true
+},
+{
+  "key": "audio",
+  "type": "textfield",
+  "input": true,
+  "label": "Audio",
+  "tableView": true
+},
+{
+  "key": "24/7",
+  "type": "textfield",
+  "input": true,
+  "label": "24/7",
+  "tableView": true
+},
+{
+  "key": "notes",
+  "type": "textfield",
+  "input": true,
+  "label": "Notes",
+  "tableView": true
+},
+{
+  "key": "other",
+  "type": "textfield",
+  "input": true,
+  "label": "Other",
+  "tableView": true
+}

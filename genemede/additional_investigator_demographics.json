@@ -1,0 +1,169 @@
+{
+  "title": "Additional Investigator Demographics",
+  "display": "form",
+  "settings": {},
+  "components": [
+    {
+      "key": "html",
+      "type": "htmlelement",
+      "attrs": [
+        {
+          "attr": "",
+          "value": ""
+        }
+      ],
+      "input": false,
+      "label": "HTML",
+      "content": "Additional information about researchers.",
+      "tableView": false,
+      "refreshOnChange": false
+    },
+    {
+      "key": "firstName",
+      "type": "textfield",
+      "input": true,
+      "label": "First Name",
+      "tableView": true
+    },
+    {
+      "key": "lastName",
+      "type": "textfield",
+      "input": true,
+      "label": "Last Name",
+      "tableView": true
+    },
+    {
+      "key": "position",
+      "type": "textfield",
+      "input": true,
+      "label": "Position",
+      "tableView": true
+    },
+    {
+      "key": "latestEducationalQualification",
+      "type": "textfield",
+      "input": true,
+      "label": "Latest Educational Qualification",
+      "tableView": true
+    },
+    {
+      "key": "contactPhone",
+      "type": "textfield",
+      "input": true,
+      "label": "Contact Phone",
+      "tableView": true
+    },
+    {
+      "key": "contactEMail",
+      "type": "textfield",
+      "input": true,
+      "label": "Contact E-Mail",
+      "tableView": true
+    },
+    {
+      "key": "contactWebsite",
+      "type": "textfield",
+      "input": true,
+      "label": "Contact Website",
+      "tableView": true
+    },
+    {
+      "key": "contactAddress",
+      "type": "textfield",
+      "input": true,
+      "label": "Contact Address",
+      "tableView": true
+    },
+    {
+      "key": "projects",
+      "type": "textfield",
+      "input": true,
+      "label": "Projects",
+      "tableView": true
+    },
+    {
+      "key": "projectRole",
+      "type": "textfield",
+      "input": true,
+      "label": "Project Role",
+      "tableView": true
+    },
+    {
+      "key": "certifications",
+      "type": "textfield",
+      "input": true,
+      "label": "Certifications",
+      "tableView": true
+    },
+    {
+      "key": "labAffiliation",
+      "type": "textfield",
+      "input": true,
+      "label": "Lab Affiliation",
+      "tableView": true
+    },
+    {
+      "key": "labStartingDate",
+      "type": "textfield",
+      "input": true,
+      "label": "Lab Starting Date",
+      "tableView": true
+    },
+    {
+      "key": "subjectFields",
+      "type": "textfield",
+      "input": true,
+      "label": "Subject Fields",
+      "tableView": true
+    },
+    {
+      "key": "sex",
+      "type": "textfield",
+      "input": true,
+      "label": "Sex",
+      "tableView": true
+    },
+    {
+      "key": "handedness",
+      "type": "textfield",
+      "input": true,
+      "label": "Handedness",
+      "tableView": true
+    },
+    {
+      "key": "age",
+      "type": "textfield",
+      "input": true,
+      "label": "Age",
+      "tableView": true
+    },
+    {
+      "key": "primaryLanguage",
+      "type": "textfield",
+      "input": true,
+      "label": "Primary Language",
+      "tableView": true
+    },
+    {
+      "key": "additionalComments",
+      "type": "textfield",
+      "input": true,
+      "label": "Additional Comments",
+      "tableView": true
+    },
+    {
+      "key": "handednessValue",
+      "type": "textfield",
+      "input": true,
+      "label": "Handedness Value",
+      "tableView": true
+    },
+    {
+      "key": "secondaryLanguage",
+      "type": "textfield",
+      "input": true,
+      "label": "Secondary Language",
+      "tableView": true
+    }
+  ]
+}

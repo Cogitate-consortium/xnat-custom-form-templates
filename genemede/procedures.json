@@ -1,0 +1,77 @@
+{
+    "title": "Procedure",
+    "display": "form",
+    "settings": {},
+    "components": [
+      {
+        "key": "html",
+        "type": "htmlelement",
+        "attrs": [
+          {
+            "attr": "",
+            "value": ""
+          }
+        ],
+        "input": false,
+        "label": "HTML",
+        "content": "Information about procedures and protocols used in the experiment.",
+        "tableView": false,
+        "refreshOnChange": false
+      },
+      {
+        "key": "ordered",
+        "data": {
+          "values": [
+            {
+              "label": "Yes",
+              "value": "yes"
+            },
+            {
+              "label": "No",
+              "value": "no"
+            }
+          ]
+        },
+        "type": "xnatSelect",
+        "input": true,
+        "label": "Are the list of steps described here ordered?",
+        "widget": "choicesjs",
+        "tableView": true
+      },
+      {
+        "key": "data_produced",
+        "data": {
+          "values": [
+            {
+              "label": "Yes",
+              "value": "yes"
+            },
+            {
+              "label": "No",
+              "value": "no"
+            }
+          ]
+        },
+        "type": "xnatSelect",
+        "input": true,
+        "label": "Does this protocol produce data?",
+        "widget": "choicesjs",
+        "tableView": true
+      },
+      {
+        "key": "activity_steps",
+        "type": "textfield",
+        "input": true,
+        "label": "List of steps that are part of this protocol.",
+        "tableView": true
+      },
+      {
+        "key": "activity_steps1",
+        "type": "textfield",
+        "input": true,
+        "label": "Resources",
+        "tableView": true,
+        "description": "Resources with description of the protocol."
+      }
+    ]
+  }

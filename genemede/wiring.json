@@ -1,0 +1,35 @@
+{
+  "title": "Wiring",
+  "display": "form",
+  "settings": {},
+  "components": [
+    {
+      "key": "nodeDb",
+      "type": "textfield",
+      "input": true,
+      "label": "Node DB",
+      "tableView": true
+    },
+    {
+      "key": "edgeDb",
+      "type": "textfield",
+      "input": true,
+      "label": "Edge DB",
+      "tableView": true
+    },
+    {
+      "key": "nodeDbVersion",
+      "type": "textfield",
+      "input": true,
+      "label": "Node DB Version",
+      "tableView": true
+    },
+    {
+      "key": "edgeDbVersion",
+      "type": "textfield",
+      "input": true,
+      "label": "Edge DB Version",
+      "tableView": true
+    }
+  ]
+}

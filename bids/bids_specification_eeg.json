@@ -1,0 +1,224 @@
+{
+  "title": "BIDS Specification EEG",
+  "display": "form",
+  "settings": {},
+  "components": [
+    {
+      "key": "taskName",
+      "type": "textfield",
+      "input": true,
+      "label": "Task Name",
+      "tableView": true
+    },
+    {
+      "key": "TaskDescriptions",
+      "type": "textfield",
+      "input": true,
+      "label": "Task Descriptions",
+      "tableView": true
+    },
+    {
+      "key": "Instructions",
+      "type": "textfield",
+      "input": true,
+      "label": "Instructions",
+      "tableView": true
+    },
+    {
+      "key": "CogAtlasID",
+      "type": "textfield",
+      "input": true,
+      "label": "COGAtlasID",
+      "tableView": true
+    },
+    {
+      "key": "cogPoId",
+      "type": "textfield",
+      "input": true,
+      "label": "Cog PO ID",
+      "tableView": true
+    },
+    {
+      "key": "InstitutionName",
+      "type": "textfield",
+      "input": true,
+      "label": "Institution Name",
+      "tableView": true
+    },
+    {
+      "key": "InstitutionalDepartmentName",
+      "type": "textfield",
+      "input": true,
+      "label": "Institutional Department Name",
+      "tableView": true
+    },
+    {
+      "key": "InstitutionAddress",
+      "type": "textfield",
+      "input": true,
+      "label": "Institution Address",
+      "tableView": true
+    },
+    {
+      "key": "manufacturer",
+      "type": "textfield",
+      "input": true,
+      "label": "Manufacturer",
+      "tableView": true
+    },
+    {
+      "key": "manufacturersModelName",
+      "type": "textfield",
+      "input": true,
+      "label": "Manufacturers Model Name",
+      "tableView": true
+    },
+    {
+      "key": "deviceSerialNumber",
+      "type": "textfield",
+      "input": true,
+      "label": "Device Serial Number",
+      "tableView": true
+    },
+    {
+      "key": "softwareVersions",
+      "type": "textfield",
+      "input": true,
+      "label": "Software Versions",
+      "tableView": true
+    },
+    {
+      "key": "samplingFrequency",
+      "type": "textfield",
+      "input": true,
+      "label": "Sampling Frequency",
+      "tableView": true
+    },
+    {
+      "key": "powerLineFrequency",
+      "type": "textfield",
+      "input": true,
+      "label": "Power Line Frequency",
+      "tableView": true
+    },
+    {
+      "key": "eegChannelCount",
+      "type": "textfield",
+      "input": true,
+      "label": "EEG Channel Count",
+      "tableView": true
+    },
+    {
+      "key": "eogCHannelCount",
+      "type": "textfield",
+      "input": true,
+      "label": "EOG Channel Count",
+      "tableView": true
+    },
+    {
+      "key": "ecgChannelCount",
+      "type": "textfield",
+      "input": true,
+      "label": "ECG Channel Count",
+      "tableView": true
+    },
+    {
+      "key": "emgChannelCount",
+      "type": "textfield",
+      "input": true,
+      "label": "EMG Channel Count",
+      "tableView": true
+    },
+    {
+      "key": "miscChannelCount",
+      "type": "textfield",
+      "input": true,
+      "label": "Misc Channel Count",
+      "tableView": true
+    },
+    {
+      "key": "triggerChannelCount",
+      "type": "textfield",
+      "input": true,
+      "label": "Trigger Channel Count",
+      "tableView": true
+    },
+    {
+      "key": "eegPlacementScheme",
+      "type": "textfield",
+      "input": true,
+      "label": "EEG Placement Scheme",
+      "tableView": true
+    },
+    {
+      "key": "eegReference",
+      "type": "textfield",
+      "input": true,
+      "label": "EEG Reference",
+      "tableView": true
+    },
+    {
+      "key": "eegGround",
+      "type": "textfield",
+      "input": true,
+      "label": "EEG Ground",
+      "tableView": true
+    },
+    {
+      "key": "CapManufacturer",
+      "type": "textfield",
+      "input": true,
+      "label": "Cap Manufacturer",
+      "tableView": true
+    },
+    {
+      "key": "CapManufacturersModelName",
+      "type": "textfield",
+      "input": true,
+      "label": "Cap Manufacturers Model Name",
+      "tableView": true
+    },
+    {
+      "key": "HardwareFilters",
+      "type": "textfield",
+      "input": true,
+      "label": "Hardware Filters",
+      "tableView": true
+    },
+    {
+      "key": "softwareFilters",
+      "type": "textfield",
+      "input": true,
+      "label": "Software Filters",
+      "tableView": true
+    },
+    {
+      "key": "recordingDuration",
+      "type": "textfield",
+      "input": true,
+      "label": "Recording Duration",
+      "tableView": true
+    },
+    {
+      "key": "recordingType",
+      "type": "textfield",
+      "input": true,
+      "label": "Recording Type",
+      "tableView": true
+    },
+    {
+      "key": "subjectArtefactDescription",
+      "type": "textfield",
+      "input": true,
+      "label": "Subject Artefact Description",
+      "tableView": true
+    },
+    {
+      "key": "channels",
+      "type": "textfield",
+      "input": true,
+      "label": "Channels",
+      "tableView": true
+    }
+  ]
+}

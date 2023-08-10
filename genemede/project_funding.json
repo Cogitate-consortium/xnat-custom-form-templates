@@ -1,0 +1,102 @@
+{
+    "title": "Project Funding",
+    "display": "form",
+    "settings": {},
+    "components": [
+      {
+        "key": "html",
+        "type": "htmlelement",
+        "attrs": [
+          {
+            "attr": "",
+            "value": ""
+          }
+        ],
+        "input": false,
+        "label": "HTML",
+        "content": "Information about project funding.",
+        "tableView": false,
+        "refreshOnChange": false
+      },
+      {
+        "key": "funding_agency",
+        "type": "textfield",
+        "input": true,
+        "label": "Funding Agency",
+        "tableView": true,
+        "description": "Name of the funding agency."
+      },
+      {
+        "key": "grant_ID",
+        "type": "textfield",
+        "input": true,
+        "label": "Grant ID",
+        "tableView": true,
+        "description": "Grant ID"
+      },
+      {
+        "key": "grant_application",
+        "type": "textfield",
+        "input": true,
+        "label": "Grant Application",
+        "tableView": true,
+        "description": "Grant application document."
+      },
+      {
+        "key": "grantee",
+        "type": "textfield",
+        "input": true,
+        "label": "Grantee",
+        "tableView": true,
+        "description": "Name of the person receiving the funding."
+      },
+      {
+        "key": "legal_signatory",
+        "type": "textfield",
+        "input": true,
+        "label": "Legal Signatory",
+        "tableView": true,
+        "description": "Name of the legal signatory for the funding."
+      },
+      {
+        "key": "funding_start_date",
+        "type": "textfield",
+        "input": true,
+        "label": "Funding Start Date",
+        "tableView": true,
+        "description": "Start date of the grant."
+      },
+      {
+        "key": "funding_end_date",
+        "type": "textfield",
+        "input": true,
+        "label": "Funding end date",
+        "tableView": true,
+        "description": "End date of the grant"
+      },
+      {
+        "key": "funding_amount",
+        "type": "textfield",
+        "input": true,
+        "label": "Funding Amount",
+        "tableView": true,
+        "description": "Amount of funding money"
+      },
+      {
+        "key": "funding_currency",
+        "type": "textfield",
+        "input": true,
+        "label": "Funding Currency",
+        "tableView": true,
+        "description": "Currency in which the funding amount is released."
+      },
+      {
+        "key": "grant_website",
+        "type": "textfield",
+        "input": true,
+        "label": "Grant Website",
+        "tableView": true,
+        "description": "Website of the grant."
+      }
+    ]
+  }

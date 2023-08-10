@@ -1,0 +1,115 @@
+{
+    "key": "content",
+    "html": "<p><span class=\"text-tiny\" style=\"font-family:Arial, Helvetica, sans-serif;\"><b>Form UUID:df72063d-0f47-4a7f-8bdc-384659cba6e5</b></span></p>",
+    "type": "content",
+    "input": false,
+    "label": "content",
+    "tableView": false,
+    "refreshOnChange": false
+},
+{
+    "key": "hasTheEcogDataBeenPreparedForUpload",
+    "data": {
+    "values": [
+        {
+        "label": "Yes",
+        "value": "yes"
+        },
+        {
+        "label": "No",
+        "value": "no"
+        }
+    ]
+    },
+    "type": "xnatSelect",
+    "input": true,
+    "label": "Has the ECOG data been prepared for upload? ",
+    "widget": "choicesjs",
+    "tableView": true
+},
+{
+    "key": "numberOfScans",
+    "mask": false,
+    "type": "number",
+    "input": true,
+    "label": "Number of scans",
+    "delimiter": false,
+    "tableView": false,
+    "inputFormat": "plain",
+    "requireDecimal": false,
+    "truncateMultipleSpaces": false
+},
+{
+    "key": "samplingFrequency",
+    "mask": false,
+    "type": "number",
+    "input": true,
+    "label": "Sampling Frequency",
+    "delimiter": false,
+    "tableView": false,
+    "description": "Expected sampling frequency of the data in the scans being uploaded.",
+    "inputFormat": "plain",
+    "requireDecimal": false,
+    "truncateMultipleSpaces": false
+},
+{
+    "key": "highpassFilterCutoffFrequency",
+    "mask": false,
+    "type": "number",
+    "input": true,
+    "label": "Highpass Filter Cutoff Frequency",
+    "delimiter": false,
+    "tableView": false,
+    "description": "The cutoff frequency of the high pass filter used in the scans. ",
+    "inputFormat": "plain",
+    "requireDecimal": false,
+    "truncateMultipleSpaces": false
+},
+{
+    "key": "lowpassFilterCutoffFrequency",
+    "mask": false,
+    "type": "number",
+    "input": true,
+    "label": "Lowpass Filter Cutoff Frequency",
+    "delimiter": false,
+    "tableView": false,
+    "description": "The cutoff frequency of the lowpass filter used.",
+    "inputFormat": "plain",
+    "requireDecimal": false,
+    "truncateMultipleSpaces": false
+},
+{
+    "key": "recordingDuration",
+    "mask": false,
+    "type": "number",
+    "input": true,
+    "label": "Recording Duration",
+    "delimiter": false,
+    "tableView": false,
+    "description": "Duration of the recording in seconds.",
+    "inputFormat": "plain",
+    "requireDecimal": false,
+    "truncateMultipleSpaces": false
+},
+{
+    "key": "numberOfChannels",
+    "mask": false,
+    "type": "number",
+    "input": true,
+    "label": "Number of channels",
+    "delimiter": false,
+    "tableView": false,
+    "description": "The number of channels expected in the data.",
+    "inputFormat": "plain",
+    "requireDecimal": false,
+    "truncateMultipleSpaces": false
+},
+{
+    "key": "ecogUploadComments",
+    "type": "textarea",
+    "input": true,
+    "label": "ECOG Upload Comments",
+    "tableView": true,
+    "autoExpand": false,
+    "description": "Notes and comments related to the measurement being uploaded. "
+}

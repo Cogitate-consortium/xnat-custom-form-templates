@@ -1,0 +1,135 @@
+{
+    "key": "content",
+    "html": "<p><span class=\"text-tiny\" style=\"font-family:Arial, Helvetica, sans-serif;\"><b>Form UUID:18601e2f-1b11-48e8-90ff-782dfc6caa00</b></span></p>",
+    "type": "content",
+    "input": false,
+    "label": "content",
+    "tableView": false,
+    "refreshOnChange": false
+},
+{
+    "key": "hasTheETDataBeenPreparedForUpload",
+    "data": {
+    "values": [
+        {
+        "label": "Yes",
+        "value": "yes"
+        },
+        {
+        "label": "No",
+        "value": "no"
+        }
+    ]
+    },
+    "type": "xnatSelect",
+    "input": true,
+    "label": "Has the ET data been prepared for upload? ",
+    "widget": "choicesjs",
+    "tableView": true
+},
+{
+    "key": "manufacturer",
+    "data": {
+    "values": [
+        {
+        "label": "TOBII",
+        "value": "tobii"
+        },
+        {
+        "label": "EYELINK",
+        "value": "eyelink"
+        }
+    ]
+    },
+    "type": "xnatSelect",
+    "input": true,
+    "label": "Manufacturer",
+    "widget": "choicesjs",
+    "tableView": true,
+    "description": "Manufacturer of the ET device being used"
+},
+{
+    "key": "numberOfScans",
+    "mask": false,
+    "type": "number",
+    "input": true,
+    "label": "Number of scans",
+    "delimiter": false,
+    "tableView": false,
+    "inputFormat": "plain",
+    "requireDecimal": false,
+    "truncateMultipleSpaces": false
+},
+{
+    "key": "samplingFrequency",
+    "mask": false,
+    "type": "number",
+    "input": true,
+    "label": "Sampling Frequency",
+    "delimiter": false,
+    "tableView": false,
+    "description": "Expected sampling frequency of the data (in Hz) in the scans being uploaded.",
+    "inputFormat": "plain",
+    "requireDecimal": false,
+    "truncateMultipleSpaces": false
+},
+{
+    "key": "distanceToScreen",
+    "mask": false,
+    "type": "number",
+    "input": true,
+    "label": "DistancetoScreen",
+    "delimiter": false,
+    "tableView": false,
+    "description": "Distance to the screen in cms in the ET setup.",
+    "inputFormat": "plain",
+    "requireDecimal": false,
+    "truncateMultipleSpaces": false
+},
+{
+    "key": "screenSize",
+    "mask": false,
+    "type": "number",
+    "input": true,
+    "label": "ScreenSize",
+    "delimiter": false,
+    "tableView": false,
+    "description": "Size of the screen in cms e.g. 47.2 x 29.5 cm",
+    "inputFormat": "plain",
+    "requireDecimal": false,
+    "truncateMultipleSpaces": false
+},
+{
+    "key": "recordedEye1",
+    "data": {
+    "values": [
+        {
+        "label": "Left",
+        "value": "left"
+        },
+        {
+        "label": "Right",
+        "value": "right"
+        },
+        {
+        "label": "Both",
+        "value": "both"
+        }
+    ]
+    },
+    "type": "xnatSelect",
+    "input": true,
+    "label": "Recorded Eye",
+    "widget": "choicesjs",
+    "tableView": true,
+    "description": "Which eye was recorded during the measurement?"
+},
+{
+    "key": "etUploadComments",
+    "type": "textarea",
+    "input": true,
+    "label": "ET Upload Comments",
+    "tableView": true,
+    "autoExpand": false,
+    "description": "Notes and comments related to the measurement being uploaded. "
+}

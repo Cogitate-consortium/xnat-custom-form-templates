@@ -1,0 +1,72 @@
+{
+  "title": "Tasks",
+  "display": "form",
+  "settings": {},
+  "components": [
+    {
+      "key": "taskName",
+      "type": "textfield",
+      "input": true,
+      "label": "Task Name",
+      "tableView": true,
+      "description": "Generic name of the task."
+    },
+    {
+      "key": "taskDescription",
+      "type": "textfield",
+      "input": true,
+      "label": "Task Description",
+      "tableView": true,
+      "description": "Description of the task."
+    },
+    {
+      "key": "code",
+      "type": "textfield",
+      "input": true,
+      "label": "Code",
+      "tableView": true,
+      "description": "Code where the task is implemented."
+    },
+    {
+      "key": "taskDescription1",
+      "type": "textarea",
+      "input": true,
+      "label": "Task Description",
+      "tableView": true,
+      "autoExpand": false,
+      "description": "Detailed description of the task."
+    },
+    {
+      "key": "stimuli",
+      "type": "textfield",
+      "input": true,
+      "label": "Stimuli",
+      "tableView": true,
+      "description": "List of entities that can be classified as stimuli."
+    },
+    {
+      "key": "responses",
+      "type": "textfield",
+      "input": true,
+      "label": "Responses",
+      "tableView": true,
+      "description": "List of entities that can be classified as responses."
+    },
+    {
+      "key": "feedback",
+      "type": "textfield",
+      "input": true,
+      "label": "Feedback",
+      "tableView": true,
+      "description": "List of entities that can be classified as feedback."
+    },
+    {
+      "key": "delays",
+      "type": "textfield",
+      "input": true,
+      "label": "Delays",
+      "tableView": true,
+      "description": "List of entities that can be classified as delays."
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+    "title": "Project Outputs",
+    "display": "form",
+    "settings": {},
+    "components": [
+      {
+        "key": "html",
+        "type": "htmlelement",
+        "attrs": [
+          {
+            "attr": "",
+            "value": ""
+          }
+        ],
+        "input": false,
+        "label": "HTML",
+        "content": "Form gathers information about various outputs and resources related to the project.",
+        "tableView": false,
+        "refreshOnChange": false
+      },
+      {
+        "key": "project_website",
+        "type": "textfield",
+        "input": true,
+        "label": "Project Website",
+        "tableView": true,
+        "description": "URL to the project website."
+      },
+      {
+        "key": "preregistration",
+        "type": "textfield",
+        "input": true,
+        "label": "Preregistration",
+        "tableView": true,
+        "description": "Link to the preregistration document."
+      },
+      {
+        "key": "communication",
+        "type": "textfield",
+        "input": true,
+        "label": "Communication",
+        "tableView": true,
+        "description": "Various means used to communicate within the project. e.g. posters, talks"
+      },
+      {
+        "key": "publications",
+        "type": "textfield",
+        "input": true,
+        "label": "Publications",
+        "tableView": true,
+        "description": "List of DOIs of publications arising from the project."
+      },
+      {
+        "key": "code_repository",
+        "type": "textfield",
+        "input": true,
+        "label": "Code Repository",
+        "tableView": true,
+        "description": "URL to the code repository / organization repository."
+      },
+      {
+        "key": "data_repository",
+        "type": "textfield",
+        "input": true,
+        "label": "Data Repository",
+        "tableView": true,
+        "description": "URL to the data repository."
+      },
+      {
+        "key": "outreach",
+        "type": "textfield",
+        "input": true,
+        "label": "Outreach",
+        "tableView": true,
+        "description": "Resources for various outreach initiatives e.g. twitter, blogs etc."
+      },
+      {
+        "key": "digital_resources",
+        "type": "textfield",
+        "input": true,
+        "label": "Digital Resources",
+        "tableView": true,
+        "description": "List of digital resources used within the project. e.g. wiki, logo etc."
+      }
+    ]
+  }

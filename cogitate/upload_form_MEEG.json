@@ -1,0 +1,230 @@
+{
+    "key": "content",
+    "html": "<p><span class=\"text-tiny\" style=\"font-family:Arial, Helvetica, sans-serif;\"><b>Form UUID:b5cd984b-03f3-4703-9d13-5768c128e98c</b></span></p>",
+    "type": "content",
+    "input": false,
+    "label": "content",
+    "tableView": false,
+    "refreshOnChange": false
+},
+{
+    "key": "hasTheMeegDataBeenPreparedForUpload",
+    "data": {
+    "values": [
+        {
+        "label": "Yes",
+        "value": "yes"
+        },
+        {
+        "label": "No",
+        "value": "no"
+        }
+    ]
+    },
+    "type": "xnatSelect",
+    "input": true,
+    "label": "Has the MEEG data been prepared for upload? ",
+    "widget": "choicesjs",
+    "tableView": true
+},
+{
+    "key": "numberOfScans",
+    "mask": false,
+    "type": "number",
+    "input": true,
+    "label": "Number of scans",
+    "delimiter": false,
+    "tableView": false,
+    "inputFormat": "plain",
+    "requireDecimal": false,
+    "truncateMultipleSpaces": false
+},
+{
+    "key": "samplingFrequency",
+    "mask": false,
+    "type": "number",
+    "input": true,
+    "label": "Sampling Frequency",
+    "delimiter": false,
+    "tableView": false,
+    "description": "Expected sampling frequency of the data in the scans being uploaded.",
+    "inputFormat": "plain",
+    "requireDecimal": false,
+    "truncateMultipleSpaces": false
+},
+{
+    "key": "powerlineFrequency",
+    "mask": false,
+    "type": "number",
+    "input": true,
+    "label": "Powerline Frequency",
+    "delimiter": false,
+    "tableView": false,
+    "description": "Expected powerline frequency of the data in the scans being uploaded.",
+    "inputFormat": "plain",
+    "requireDecimal": false,
+    "truncateMultipleSpaces": false
+},
+{
+    "key": "highpassFilterCutoffFrequency",
+    "mask": false,
+    "type": "number",
+    "input": true,
+    "label": "Highpass Filter Cutoff Frequency",
+    "delimiter": false,
+    "tableView": false,
+    "description": "The cutoff frequency of the high pass filter used in the scans. ",
+    "inputFormat": "plain",
+    "requireDecimal": false,
+    "truncateMultipleSpaces": false
+},
+{
+    "key": "digitizedLandmarks",
+    "data": {
+    "values": [
+        {
+        "label": "True",
+        "value": "true"
+        },
+        {
+        "label": "False",
+        "value": "false"
+        }
+    ]
+    },
+    "type": "xnatSelect",
+    "input": true,
+    "label": "Digitized Landmarks",
+    "widget": "choicesjs",
+    "tableView": true,
+    "description": "Are there digital landmarks in the data? "
+},
+{
+    "key": "digitizedHeadPoints",
+    "data": {
+    "values": [
+        {
+        "label": "True",
+        "value": "true"
+        },
+        {
+        "label": "False",
+        "value": "false"
+        }
+    ]
+    },
+    "type": "xnatSelect",
+    "input": true,
+    "label": "Digitized Head Points",
+    "widget": "choicesjs",
+    "tableView": true,
+    "description": "Are there digital head points in the data? "
+},
+{
+    "key": "lowpassFilterCutoffFrequency",
+    "mask": false,
+    "type": "number",
+    "input": true,
+    "label": "Lowpass Filter Cutoff Frequency",
+    "delimiter": false,
+    "tableView": false,
+    "description": "The cutoff frequency of the lowpass filter used.",
+    "inputFormat": "plain",
+    "requireDecimal": false,
+    "truncateMultipleSpaces": false
+},
+{
+    "key": "dewarPosition",
+    "mask": false,
+    "type": "number",
+    "input": true,
+    "label": "Dewar Position",
+    "delimiter": false,
+    "tableView": false,
+    "description": "Position of the dewar during measurement.",
+    "inputFormat": "plain",
+    "requireDecimal": false,
+    "truncateMultipleSpaces": false
+},
+{
+    "key": "recordingDuration",
+    "mask": false,
+    "type": "number",
+    "input": true,
+    "label": "Recording Duration",
+    "delimiter": false,
+    "tableView": false,
+    "description": "Duration of the recording in seconds.",
+    "inputFormat": "plain",
+    "requireDecimal": false,
+    "truncateMultipleSpaces": false
+},
+{
+    "key": "numberOfChannels",
+    "mask": false,
+    "type": "number",
+    "input": true,
+    "label": "Number of channels",
+    "delimiter": false,
+    "tableView": false,
+    "description": "The number of channels expected in the data.",
+    "inputFormat": "plain",
+    "requireDecimal": false,
+    "truncateMultipleSpaces": false
+},
+{
+    "key": "megChannelCount",
+    "mask": false,
+    "type": "number",
+    "input": true,
+    "label": "MEG Channel Count",
+    "delimiter": false,
+    "tableView": false,
+    "description": "The number of MEG channels expected in the data.",
+    "inputFormat": "plain",
+    "requireDecimal": false,
+    "truncateMultipleSpaces": false
+},
+{
+    "key": "highpassSoftwareFilter",
+    "mask": false,
+    "type": "number",
+    "input": true,
+    "label": "Highpass Software Filter",
+    "delimiter": false,
+    "tableView": false,
+    "description": "The highpass filter value of the software filter used.",
+    "inputFormat": "plain",
+    "requireDecimal": false,
+    "truncateMultipleSpaces": false
+},
+{
+    "key": "lowpassSoftwareFilter",
+    "mask": false,
+    "type": "number",
+    "input": true,
+    "label": "Lowpass Software Filter",
+    "delimiter": false,
+    "tableView": false,
+    "description": "The lowpass filter value of the software filter used.",
+    "inputFormat": "plain",
+    "requireDecimal": false,
+    "truncateMultipleSpaces": false
+},
+{
+    "key": "megCoordinateSystem",
+    "type": "textfield",
+    "input": true,
+    "label": "MEG Coordinate System",
+    "tableView": true,
+    "description": "Coordinate system of the MEG in the data."
+},
+{
+    "key": "meegUploadComments",
+    "type": "textarea",
+    "input": true,
+    "label": "MEEG Upload Comments",
+    "tableView": true,
+    "autoExpand": false,
+    "description": "Notes and comments related to the measurement being uploaded. "
+}
