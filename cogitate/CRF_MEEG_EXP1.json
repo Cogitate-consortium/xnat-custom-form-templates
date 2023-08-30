@@ -1,78 +1,557 @@
 {
-  "key": "html",
-  "type": "htmlelement",
-  "attrs": [
-    {
-      "attr": "",
-      "value": ""
-    }
-  ],
-  "input": false,
-  "label": "HTML",
-  "content": "MEG experiment information.",
-  "tableView": false,
-  "refreshOnChange": false
-},
-{
-  "key": "name",
-  "type": "textfield",
-  "input": true,
-  "label": "Name",
-  "tableView": true
-},
-{
-  "key": "eyetracking_not_working",
-  "type": "textfield",
-  "input": true,
-  "label": "Eyetracking Not Working",
-  "tableView": true
-},
-{
-  "key": "eyetracking_showing_bad_patterns",
-  "type": "textfield",
-  "input": true,
-  "label": "Eyetracking Showing Bad Patterns",
-  "tableView": true
-},
-{
-  "key": "problems_in_task_performance",
-  "type": "textfield",
-  "input": true,
-  "label": "Problems in Task Performance",
-  "tableView": true
-},
-{
-  "key": "strong_head_motion",
-  "type": "textfield",
-  "input": true,
-  "label": "Strong Head Motion",
-  "tableView": true
-},
-{
-  "key": "strong_body_motion",
-  "type": "textfield",
-  "input": true,
-  "label": "Strong Body Motion",
-  "tableView": true
-},
-{
-  "key": "bad_meg_sensors",
-  "type": "textfield",
-  "input": true,
-  "label": "Bad MEG Sensors",
-  "tableView": true
-},
-{
-  "key": "bad_eeg_sensors",
-  "type": "textfield",
-  "input": true,
-  "label": "Bad EEG Sensors",
-  "tableView": true
-},
-{
-  "key": "notes",
-  "type": "textfield",
-  "input": true,
-  "label": "Notes",
-  "tableView": true
-}
+    "title": "CRF EXP1 IN PROGRESS",
+    "display": "form",
+    "settings": {},
+    "components": [
+      {
+        "key": "html",
+        "type": "htmlelement",
+        "attrs": [],
+        "input": false,
+        "label": "HTML",
+        "content": "MEG experiment information.",
+        "tableView": false,
+        "refreshOnChange": false
+      },
+      {
+        "key": "emptyRoom",
+        "type": "panel",
+        "label": "Empty Room",
+        "components": [
+          {
+            "type": "datagrid",
+            "key": "emptyRoomData",
+            "label": "Data for Empty Room",
+            "components": [
+              {
+                "key": "eyetracking_not_working",
+                "type": "textfield",
+                "input": true,
+                "label": "Eyetracking Not Working",
+                "tableView": true
+              },
+              {
+                "key": "eyetracking_showing_bad_patterns",
+                "type": "textfield",
+                "input": true,
+                "label": "Eyetracking Showing Bad Patterns",
+                "tableView": true
+              },
+              {
+                "key": "problems_in_task_performance",
+                "type": "textfield",
+                "input": true,
+                "label": "Problems in Task Performance",
+                "tableView": true
+              },
+              {
+                "key": "strong_head_motion",
+                "type": "textfield",
+                "input": true,
+                "label": "Strong Head Motion",
+                "tableView": true
+              },
+              {
+                "key": "strong_body_motion",
+                "type": "textfield",
+                "input": true,
+                "label": "Strong Body Motion",
+                "tableView": true
+              },
+              {
+                "key": "trigger_monitoring",
+                "type": "textfield",
+                "input": true,
+                "label": "Trigger Monitoring",
+                "tableView": true
+              },
+              {
+                "key": "bad_meg_sensors",
+                "type": "textfield",
+                "input": true,
+                "label": "Bad MEG Sensors",
+                "tableView": true
+              },
+              {
+                "key": "bad_eeg_sensors",
+                "type": "textfield",
+                "input": true,
+                "label": "Bad EEG Sensors",
+                "tableView": true
+              },
+              {
+                "key": "notes",
+                "type": "textfield",
+                "input": true,
+                "label": "Notes",
+                "tableView": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "restingState",
+        "type": "panel",
+        "label": "Resting State",
+        "components": [
+          {
+            "type": "datagrid",
+            "key": "restingStateData",
+            "label": "Data for Resting State",
+            "components": [
+              {
+                "key": "eyetracking_not_working",
+                "type": "textfield",
+                "input": true,
+                "label": "Eyetracking Not Working",
+                "tableView": true
+              },
+              {
+                "key": "eyetracking_showing_bad_patterns",
+                "type": "textfield",
+                "input": true,
+                "label": "Eyetracking Showing Bad Patterns",
+                "tableView": true
+              },
+              {
+                "key": "problems_in_task_performance",
+                "type": "textfield",
+                "input": true,
+                "label": "Problems in Task Performance",
+                "tableView": true
+              },
+              {
+                "key": "strong_head_motion",
+                "type": "textfield",
+                "input": true,
+                "label": "Strong Head Motion",
+                "tableView": true
+              },
+              {
+                "key": "strong_body_motion",
+                "type": "textfield",
+                "input": true,
+                "label": "Strong Body Motion",
+                "tableView": true
+              },
+              {
+                "key": "trigger_monitoring",
+                "type": "textfield",
+                "input": true,
+                "label": "Trigger Monitoring",
+                "tableView": true
+              },
+              {
+                "key": "bad_meg_sensors",
+                "type": "textfield",
+                "input": true,
+                "label": "Bad MEG Sensors",
+                "tableView": true
+              },
+              {
+                "key": "bad_eeg_sensors",
+                "type": "textfield",
+                "input": true,
+                "label": "Bad EEG Sensors",
+                "tableView": true
+              },
+              {
+                "key": "notes",
+                "type": "textfield",
+                "input": true,
+                "label": "Notes",
+                "tableView": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "run1",
+        "type": "panel",
+        "label": "Run 1",
+        "components": [
+          {
+            "type": "datagrid",
+            "key": "run1Data",
+            "label": "Data for Run 1",
+            "components": [
+              {
+                "key": "eyetracking_not_working",
+                "type": "textfield",
+                "input": true,
+                "label": "Eyetracking Not Working",
+                "tableView": true
+              },
+              {
+                "key": "eyetracking_showing_bad_patterns",
+                "type": "textfield",
+                "input": true,
+                "label": "Eyetracking Showing Bad Patterns",
+                "tableView": true
+              },
+              {
+                "key": "problems_in_task_performance",
+                "type": "textfield",
+                "input": true,
+                "label": "Problems in Task Performance",
+                "tableView": true
+              },
+              {
+                "key": "strong_head_motion",
+                "type": "textfield",
+                "input": true,
+                "label": "Strong Head Motion",
+                "tableView": true
+              },
+              {
+                "key": "strong_body_motion",
+                "type": "textfield",
+                "input": true,
+                "label": "Strong Body Motion",
+                "tableView": true
+              },
+              {
+                "key": "trigger_monitoring",
+                "type": "textfield",
+                "input": true,
+                "label": "Trigger Monitoring",
+                "tableView": true
+              },
+              {
+                "key": "bad_meg_sensors",
+                "type": "textfield",
+                "input": true,
+                "label": "Bad MEG Sensors",
+                "tableView": true
+              },
+              {
+                "key": "bad_eeg_sensors",
+                "type": "textfield",
+                "input": true,
+                "label": "Bad EEG Sensors",
+                "tableView": true
+              },
+              {
+                "key": "notes",
+                "type": "textfield",
+                "input": true,
+                "label": "Notes",
+                "tableView": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "run2",
+        "type": "panel",
+        "label": "Run 2",
+        "components": [
+          {
+            "type": "datagrid",
+            "key": "run2Data",
+            "label": "Data for Run 2",
+            "components": [
+              {
+                "key": "eyetracking_not_working",
+                "type": "textfield",
+                "input": true,
+                "label": "Eyetracking Not Working",
+                "tableView": true
+              },
+              {
+                "key": "eyetracking_showing_bad_patterns",
+                "type": "textfield",
+                "input": true,
+                "label": "Eyetracking Showing Bad Patterns",
+                "tableView": true
+              },
+              {
+                "key": "problems_in_task_performance",
+                "type": "textfield",
+                "input": true,
+                "label": "Problems in Task Performance",
+                "tableView": true
+              },
+              {
+                "key": "strong_head_motion",
+                "type": "textfield",
+                "input": true,
+                "label": "Strong Head Motion",
+                "tableView": true
+              },
+              {
+                "key": "strong_body_motion",
+                "type": "textfield",
+                "input": true,
+                "label": "Strong Body Motion",
+                "tableView": true
+              },
+              {
+                "key": "trigger_monitoring",
+                "type": "textfield",
+                "input": true,
+                "label": "Trigger Monitoring",
+                "tableView": true
+              },
+              {
+                "key": "bad_meg_sensors",
+                "type": "textfield",
+                "input": true,
+                "label": "Bad MEG Sensors",
+                "tableView": true
+              },
+              {
+                "key": "bad_eeg_sensors",
+                "type": "textfield",
+                "input": true,
+                "label": "Bad EEG Sensors",
+                "tableView": true
+              },
+              {
+                "key": "notes",
+                "type": "textfield",
+                "input": true,
+                "label": "Notes",
+                "tableView": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "run3",
+        "type": "panel",
+        "label": "Run 3",
+        "components": [
+          {
+            "type": "datagrid",
+            "key": "run3Data",
+            "label": "Data for Run 3",
+            "components": [
+              {
+                "key": "eyetracking_not_working",
+                "type": "textfield",
+                "input": true,
+                "label": "Eyetracking Not Working",
+                "tableView": true
+              },
+              {
+                "key": "eyetracking_showing_bad_patterns",
+                "type": "textfield",
+                "input": true,
+                "label": "Eyetracking Showing Bad Patterns",
+                "tableView": true
+              },
+              {
+                "key": "problems_in_task_performance",
+                "type": "textfield",
+                "input": true,
+                "label": "Problems in Task Performance",
+                "tableView": true
+              },
+              {
+                "key": "strong_head_motion",
+                "type": "textfield",
+                "input": true,
+                "label": "Strong Head Motion",
+                "tableView": true
+              },
+              {
+                "key": "strong_body_motion",
+                "type": "textfield",
+                "input": true,
+                "label": "Strong Body Motion",
+                "tableView": true
+              },
+              {
+                "key": "trigger_monitoring",
+                "type": "textfield",
+                "input": true,
+                "label": "Trigger Monitoring",
+                "tableView": true
+              },
+              {
+                "key": "bad_meg_sensors",
+                "type": "textfield",
+                "input": true,
+                "label": "Bad MEG Sensors",
+                "tableView": true
+              },
+              {
+                "key": "bad_eeg_sensors",
+                "type": "textfield",
+                "input": true,
+                "label": "Bad EEG Sensors",
+                "tableView": true
+              },
+              {
+                "key": "notes",
+                "type": "textfield",
+                "input": true,
+                "label": "Notes",
+                "tableView": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "run4",
+        "type": "panel",
+        "label": "Run 4",
+        "components": [
+          {
+            "type": "datagrid",
+            "key": "run4Data",
+            "label": "Data for Run 4",
+            "components": [
+              {
+                "key": "eyetracking_not_working",
+                "type": "textfield",
+                "input": true,
+                "label": "Eyetracking Not Working",
+                "tableView": true
+              },
+              {
+                "key": "eyetracking_showing_bad_patterns",
+                "type": "textfield",
+                "input": true,
+                "label": "Eyetracking Showing Bad Patterns",
+                "tableView": true
+              },
+              {
+                "key": "problems_in_task_performance",
+                "type": "textfield",
+                "input": true,
+                "label": "Problems in Task Performance",
+                "tableView": true
+              },
+              {
+                "key": "strong_head_motion",
+                "type": "textfield",
+                "input": true,
+                "label": "Strong Head Motion",
+                "tableView": true
+              },
+              {
+                "key": "strong_body_motion",
+                "type": "textfield",
+                "input": true,
+                "label": "Strong Body Motion",
+                "tableView": true
+              },
+              {
+                "key": "trigger_monitoring",
+                "type": "textfield",
+                "input": true,
+                "label": "Trigger Monitoring",
+                "tableView": true
+              },
+              {
+                "key": "bad_meg_sensors",
+                "type": "textfield",
+                "input": true,
+                "label": "Bad MEG Sensors",
+                "tableView": true
+              },
+              {
+                "key": "bad_eeg_sensors",
+                "type": "textfield",
+                "input": true,
+                "label": "Bad EEG Sensors",
+                "tableView": true
+              },
+              {
+                "key": "notes",
+                "type": "textfield",
+                "input": true,
+                "label": "Notes",
+                "tableView": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "Run 5",
+        "type": "panel",
+        "label": "Run 5",
+        "components": [
+          {
+            "type": "datagrid",
+            "key": "run5Data",
+            "label": "Data for Run 5",
+            "components": [
+              {
+                "key": "eyetracking_not_working",
+                "type": "textfield",
+                "input": true,
+                "label": "Eyetracking Not Working",
+                "tableView": true
+              },
+              {
+                "key": "eyetracking_showing_bad_patterns",
+                "type": "textfield",
+                "input": true,
+                "label": "Eyetracking Showing Bad Patterns",
+                "tableView": true
+              },
+              {
+                "key": "problems_in_task_performance",
+                "type": "textfield",
+                "input": true,
+                "label": "Problems in Task Performance",
+                "tableView": true
+              },
+              {
+                "key": "strong_head_motion",
+                "type": "textfield",
+                "input": true,
+                "label": "Strong Head Motion",
+                "tableView": true
+              },
+              {
+                "key": "strong_body_motion",
+                "type": "textfield",
+                "input": true,
+                "label": "Strong Body Motion",
+                "tableView": true
+              },
+              {
+                "key": "trigger_monitoring",
+                "type": "textfield",
+                "input": true,
+                "label": "Trigger Monitoring",
+                "tableView": true
+              },
+              {
+                "key": "bad_meg_sensors",
+                "type": "textfield",
+                "input": true,
+                "label": "Bad MEG Sensors",
+                "tableView": true
+              },
+              {
+                "key": "bad_eeg_sensors",
+                "type": "textfield",
+                "input": true,
+                "label": "Bad EEG Sensors",
+                "tableView": true
+              },
+              {
+                "key": "notes",
+                "type": "textfield",
+                "input": true,
+                "label": "Notes",
+                "tableView": true
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
