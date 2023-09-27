@@ -3,8 +3,8 @@ This document provides the background information on the TWCF Electronic Lab Not
 ## ELN Project
 The ELN project has been funded by the below grants by the Templeton World Charity Foundation, Inc. and have been conducted as part of the [ARC-COGITATE project](https://www.arc-cogitate.com/). 
 
-- TWCF0486: A Collaborative Electronic Laboratory Notebook for Open, Shared and Reproducible Data-Driven Science
-- TWCF0485: A user-friendly electronic lab notebook to accelerate brain research
+- TWCF0486: A Collaborative Electronic Laboratory Notebook for Open, Shared and Reproducible Data-Driven Science; https://doi.org/10.54224/20486
+- TWCF0485: A user-friendly electronic lab notebook to accelerate brain research 
 
 ## Abstract
 The emerging popularity of open science has lead to more and more data being publicly shared across the community. Openly shared data require rich metadata in order to ensure usability and reproducibility. Further, with larger numbers of smaller datasets being shared it becomes critical to be able to combine these datasets in order to use them successfully. This requires a structured way to describe experimental setup and context. 
